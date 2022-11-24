@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    nav{
+        a{
+            color: #fff !important;
+        }
+        color: #fff;
+        background-color: rgba(0, 0, 0, 91%) !important;
+        backdrop-filter: blur(10px);
+
+        ul{
+            a{
+                font-size: 1.2rem;
+            }
+        }
+}
+}
