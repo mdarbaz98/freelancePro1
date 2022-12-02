@@ -1,0 +1,11 @@
+@use './fonts' as *;
+
+.c-btn{
+    font-family: $font1;
+    background-color: #EE2351;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 18px 40px 18px 40px;
+    text-transform: uppercase;
+}
