@@ -391,6 +391,9 @@ header nav ul a {
 .section-7 .contact-info {
   color: #fff;
   padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .section-7 .contact-info h2 {
   font-family: "Chivo", sans-serif;
@@ -399,6 +402,85 @@ header nav ul a {
 .section-7 .contact-info p {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
+}
+.section-7 .contact-form {
+  padding: 60px;
+  background-color: #202020;
+}
+.section-7 .contact-form h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: #F2F2F7;
+  margin-bottom: 40px;
+}
+.section-7 .contact-form form label {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: #F2F2F7;
+}
+.section-7 .contact-form form input,
+.section-7 .contact-form form select {
+  background: #202020;
+  padding: 1.2rem 1rem;
+  color: #fff;
+}
+.section-7 .contact-form form textarea {
+  color: #fff;
+  background: #202020;
+}
+.section-7 .contact-form form button {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  background: #EE2351;
+  padding: 18px 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+footer {
+  padding: 100px 0px;
+  color: #F2F2F7;
+}
+footer .footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer-info img {
+  width: 60px;
+}
+footer .footer-info p {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+footer .quick-link {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+footer .quick-link .left-quick-link p {
+  width: fit-content;
+  position: relative;
+}
+footer .quick-link .left-quick-link p::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -15px;
+  width: 100%;
+  height: 2px;
+  background-color: #EE2351;
+}
+footer .quick-link .left-quick-link ul {
+  padding: 20px 20px 20px 0px;
+}
+footer .quick-link .left-quick-link ul li {
+  list-style: none;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -484,6 +566,13 @@ header nav ul a {
     display: block;
   }
   .section-6 .inner-div .blog-list .card {
+    margin-bottom: 20px;
+  }
+  .section-7 .contact-info,
+  .section-7 .contact-form {
+    padding: 20px;
+  }
+  .section-7 h2 {
     margin-bottom: 20px;
   }
 }
