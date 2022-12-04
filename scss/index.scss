@@ -27,8 +27,13 @@ header {
     }
 
     color: #fff;
-    background-color: rgba(0, 0, 0, 91%) !important;
-    backdrop-filter: blur(10px);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)),
+    linear-gradient(107.02deg, rgba(19, 19, 19, 0.22) 12.09%, rgba(68, 67, 67, 0.22) 49.53%, rgba(0, 0, 0, 0.22) 89.26%);
+    /* Glass effect 2 */
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11),
+    0px 2px 16px 18px rgba(0, 0, 0, 0.02);
+    backdrop-filter: blur(35px);
 
     ul {
       a {
@@ -833,10 +838,12 @@ footer {
 
 .design-2 {
   color: #F2F2F7;
-  h2{
+
+  h2 {
     font-weight: 100;
     margin-bottom: 30px;
   }
+
   .img-div {
     height: 350px;
     background: url('/images/blog-img.jfif'), #202020;
@@ -853,6 +860,270 @@ footer {
       font-size: 28px;
       font-weight: 100;
       line-height: 45px;
+    }
+  }
+}
+
+.contact__page {
+  .hero {
+    padding: 150px 0px 400px;
+
+    h2 {
+      font-family: $font2;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 100;
+      line-height: 84px;
+    }
+
+    p {
+      font-family: $font1;
+      font-size: 18px;
+      font-weight: 100;
+      line-height: 32px;
+      color: #B6B6B6;
+    }
+
+    .inner {
+      p {
+        font-family: $font2;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 38px;
+      }
+    }
+  }
+
+  .form-background {
+    padding: 100px 180px;
+    background: url('/images/img1.png') no-repeat;
+    background-size: cover;
+
+    .form-wrapper {
+      padding: 50px;
+      background-color: #202020;
+      margin-top: -400px;
+
+      .inner-hero {
+        .left {
+          h3 {
+            font-family: $font2;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 45px;
+            color: #fff;
+          }
+
+          p {
+            font-family: $font1;
+            color: #B6B6B6;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+
+          }
+        }
+
+        .right {
+          img {
+            width: 300px;
+            height: 200px;
+          }
+        }
+      }
+
+      p,
+      .form-heading {
+        font-family: $font2;
+        font-size: 20px;
+        font-weight: 100;
+        color: #F2F2F7;
+        margin-bottom: 30px;
+      }
+
+      form {
+        color: #AEAEB2;
+
+        input,
+        select {
+          padding: 1.1rem 1rem;
+          background-color: transparent;
+          border: solid 1px #AEAEB2;
+          color: #AEAEB2;
+
+          &::placeholder {
+            color: #AEAEB2;
+          }
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+
+        select>option {
+          background-color: #2A2A2A;
+        }
+
+        .btn {
+          background-color: #EE2351;
+          padding: 18px 40px;
+          border-radius: 50px;
+          color: #fff;
+          border: none;
+        }
+      }
+    }
+
+    .last-heading {
+      font-family: $font2;
+      font-size: 34px;
+      font-weight: 100;
+      line-height: 54px;
+      color: #fff;
+      margin: 50px 20px 0px;
+      text-align: center;
+    }
+  }
+}
+
+.blog__page {
+  padding-top: 150px;
+
+  .line {
+    color: #8E8E93;
+    font-family: $font1;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 32px;
+
+    .cat {
+      color: green;
+    }
+
+    .bf {
+      position: relative;
+      padding-left: 20px;
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: 10px;
+        left: 6px;
+        width: 3px;
+        border-radius: 50px;
+        height: 3px;
+        background-color: #b6b6b6;
+      }
+    }
+  }
+  .banner {
+
+    h2 {
+      font-family: $font2;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48px;
+      color: #fff;
+    }
+  }
+
+  .content {
+    padding: 30px 0px;
+
+    .author {
+      margin-bottom: 20px;
+
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+      }
+
+      p {
+        strong {
+          font-family: $font1;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 28px;
+        }
+
+        color: #fff;
+
+        small {
+          font-family: $font1;
+          font-size: 15px;
+          font-weight: 100;
+          line-height: 24px;
+        }
+      }
+    }
+
+    p {
+      font-family: $font1;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      color: #fff;
+    }
+
+    img {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  .side{
+    border-left: solid 1px;
+  }
+  .side-bar {
+    .heading {
+      font-family: $font2;
+      font-size: 24px;
+      font-weight: 100;
+      line-height: 38px;
+      position: relative;
+      color: #fff;
+      margin-bottom: 30px;
+      &::before{
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 2px;
+        left: 0px;
+        bottom: -20px;
+        background: linear-gradient(137.95deg, #FFCE07 -2.86%, #F01E50 50.55%, #3CC8E6 102.86%);
+      }
+    }
+    .line{
+      font-size: 13px;
+      margin-bottom: 0px;
+    }
+    li{
+      list-style: none;
+      padding: 20px 0px;
+      border-bottom: solid 1px;
+      &:last-child{
+        border: none;
+      }
+      .b-head{
+font-family: $font2;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+color: #F2F2F7;
+margin-bottom: 10px;
+
+      }
+      a{
+font-family: $font1;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+color: #8E8E93;
+text-decoration: none;
+i{
+  transform: rotate(90deg);
+}
+      }
     }
   }
 }
@@ -1093,15 +1364,66 @@ footer {
       line-height: 28px;
     }
   }
-  .common-banner{
-    h2{
+
+  .common-banner {
+    h2 {
       line-height: 54px;
     }
   }
-  .design-2{
-    .img-div{
-      .text-div{
+
+  .design-2 {
+    .img-div {
+      .text-div {
         font-size: 22px;
+      }
+    }
+  }
+
+  .contact__page {
+    .hero {
+      h2 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .inner {
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .form-background {
+      padding: 20px;
+
+      .form-wrapper {
+        padding: 20px;
+
+        .inner-hero {
+          .right {
+            img {
+              width: 100%;
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+
+      .last-heading {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  }
+  .blog__page{
+    .banner{
+      h2{
+        font-size: 26px;
+        line-height: 38px;
+    
       }
     }
   }

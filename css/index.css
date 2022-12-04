@@ -29,8 +29,10 @@ header nav {
   padding-top: 1.2rem !important;
   padding-bottom: 1.2rem !important;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.91) !important;
-  backdrop-filter: blur(10px);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.22) 12.09%, rgba(68, 67, 67, 0.22) 49.53%, rgba(0, 0, 0, 0.22) 89.26%);
+  /* Glass effect 2 */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(35px);
 }
 header nav a {
   color: #fff !important;
@@ -695,6 +697,227 @@ footer .quick-link .left-quick-link ul li {
   line-height: 45px;
 }
 
+.contact__page .hero {
+  padding: 150px 0px 400px;
+}
+.contact__page .hero h2 {
+  font-family: "Chivo", sans-serif;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 100;
+  line-height: 84px;
+}
+.contact__page .hero p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+  color: #B6B6B6;
+}
+.contact__page .hero .inner p {
+  font-family: "Chivo", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 38px;
+}
+.contact__page .form-background {
+  padding: 100px 180px;
+  background: url("/images/img1.png") no-repeat;
+  background-size: cover;
+}
+.contact__page .form-background .form-wrapper {
+  padding: 50px;
+  background-color: #202020;
+  margin-top: -400px;
+}
+.contact__page .form-background .form-wrapper .inner-hero .left h3 {
+  font-family: "Chivo", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #fff;
+}
+.contact__page .form-background .form-wrapper .inner-hero .left p {
+  font-family: "Barlow", sans-serif;
+  color: #B6B6B6;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.contact__page .form-background .form-wrapper .inner-hero .right img {
+  width: 300px;
+  height: 200px;
+}
+.contact__page .form-background .form-wrapper p,
+.contact__page .form-background .form-wrapper .form-heading {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #F2F2F7;
+  margin-bottom: 30px;
+}
+.contact__page .form-background .form-wrapper form {
+  color: #AEAEB2;
+}
+.contact__page .form-background .form-wrapper form input,
+.contact__page .form-background .form-wrapper form select {
+  padding: 1.1rem 1rem;
+  background-color: transparent;
+  border: solid 1px #AEAEB2;
+  color: #AEAEB2;
+}
+.contact__page .form-background .form-wrapper form input::placeholder,
+.contact__page .form-background .form-wrapper form select::placeholder {
+  color: #AEAEB2;
+}
+.contact__page .form-background .form-wrapper form input:focus,
+.contact__page .form-background .form-wrapper form select:focus {
+  box-shadow: none;
+}
+.contact__page .form-background .form-wrapper form select > option {
+  background-color: #2A2A2A;
+}
+.contact__page .form-background .form-wrapper form .btn {
+  background-color: #EE2351;
+  padding: 18px 40px;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+}
+.contact__page .form-background .last-heading {
+  font-family: "Chivo", sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  line-height: 54px;
+  color: #fff;
+  margin: 50px 20px 0px;
+  text-align: center;
+}
+
+.blog__page {
+  padding-top: 150px;
+}
+.blog__page .line {
+  color: #8E8E93;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+}
+.blog__page .line .cat {
+  color: green;
+}
+.blog__page .line .bf {
+  position: relative;
+  padding-left: 20px;
+}
+.blog__page .line .bf::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 6px;
+  width: 3px;
+  border-radius: 50px;
+  height: 3px;
+  background-color: #b6b6b6;
+}
+.blog__page .banner h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #fff;
+}
+.blog__page .content {
+  padding: 30px 0px;
+}
+.blog__page .content .author {
+  margin-bottom: 20px;
+}
+.blog__page .content .author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.blog__page .content .author p {
+  color: #fff;
+}
+.blog__page .content .author p strong {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.blog__page .content .author p small {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+}
+.blog__page .content p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+.blog__page .content img {
+  width: 100%;
+  height: 400px;
+}
+.blog__page .side {
+  border-left: solid 1px;
+}
+.blog__page .side-bar .heading {
+  font-family: "Chivo", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 38px;
+  position: relative;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.blog__page .side-bar .heading::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 2px;
+  left: 0px;
+  bottom: -20px;
+  background: linear-gradient(137.95deg, #FFCE07 -2.86%, #F01E50 50.55%, #3CC8E6 102.86%);
+}
+.blog__page .side-bar .line {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.blog__page .side-bar li {
+  list-style: none;
+  padding: 20px 0px;
+  border-bottom: solid 1px;
+}
+.blog__page .side-bar li:last-child {
+  border: none;
+}
+.blog__page .side-bar li .b-head {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #F2F2F7;
+  margin-bottom: 10px;
+}
+.blog__page .side-bar li a {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #8E8E93;
+  text-decoration: none;
+}
+.blog__page .side-bar li a i {
+  transform: rotate(90deg);
+}
+
 @media (max-width: 767px) {
   .banner .banner-section .inner-banner-div {
     padding-bottom: 60px;
@@ -859,5 +1082,32 @@ footer .quick-link .left-quick-link ul li {
   }
   .design-2 .img-div .text-div {
     font-size: 22px;
+  }
+  .contact__page .hero h2 {
+    font-size: 40px;
+  }
+  .contact__page .hero p {
+    font-size: 16px;
+  }
+  .contact__page .hero .inner p {
+    font-size: 18px;
+  }
+  .contact__page .form-background {
+    padding: 20px;
+  }
+  .contact__page .form-background .form-wrapper {
+    padding: 20px;
+  }
+  .contact__page .form-background .form-wrapper .inner-hero .right img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact__page .form-background .last-heading {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .blog__page .banner h2 {
+    font-size: 26px;
+    line-height: 38px;
   }
 }
