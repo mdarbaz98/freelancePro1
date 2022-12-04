@@ -26,6 +26,8 @@ body {
 
 header nav {
   font-family: "Barlow", sans-serif !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.91) !important;
   backdrop-filter: blur(10px);
@@ -483,6 +485,216 @@ footer .quick-link .left-quick-link ul li {
   margin-bottom: 30px;
 }
 
+.services__page .hero-section {
+  background-image: url("/images/img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  color: #fff;
+  padding: 100px;
+}
+.services__page .hero-section .inner-div {
+  max-width: 400px;
+}
+.services__page .hero-section .inner-div h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 84px;
+}
+.services__page .hero-section .inner-div p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.services__page .wrapper {
+  margin-top: -150px;
+}
+.services__page .wrapper .element {
+  padding: 90px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("/images/img2.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.services__page .wrapper .element h3,
+.services__page .wrapper .element p {
+  max-width: 600px;
+}
+.services__page .wrapper .element h3 {
+  font-family: "Chivo", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 39px;
+}
+.services__page .wrapper .element h3 i {
+  transform: rotate(90deg);
+}
+.services__page .wrapper .element p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.services__page .highlighted-section {
+  background-image: url("/images/img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+.services__page .highlighted-section .inner-div {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.32) 12.09%, rgba(68, 67, 67, 0.32) 49.53%, rgba(0, 0, 0, 0.32) 89.26%);
+  padding: 60px 20px 10px 20px;
+}
+.services__page .highlighted-section .inner-div .left p {
+  font-family: "Chivo", sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  line-height: 54px;
+  color: #F2F2F7;
+}
+.services__page .highlighted-section .inner-div .right .mb-3 {
+  flex-grow: 1;
+}
+.services__page .highlighted-section .inner-div .right .mb-3 input {
+  background-color: #121212;
+  color: #fff;
+  padding: 1.2rem 1rem;
+  border: none;
+}
+.services__page .highlighted-section .inner-div .right .btn {
+  border: none;
+  border-radius: 50px;
+  padding: 14px 40px;
+  background: #EE2351;
+  color: #fff;
+}
+.services__page .highlighted-section .inner-div .right p {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8E8E93;
+}
+
+.common-banner {
+  padding: 100px;
+  height: 350px;
+  width: 100%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("/images/blog-img.jfif") no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.common-banner h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 84px;
+  max-width: 500px;
+}
+
+.common-text {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  color: #B6B6B6;
+}
+.common-text .left p {
+  font-family: "Chivo", sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 45px;
+}
+
+.design-1 {
+  color: #F2F2F7;
+  font-weight: 100;
+}
+.design-1 h3 {
+  font-family: "Chivo", sans-serif;
+  font-size: 34px;
+  line-height: 54px;
+  font-weight: 100;
+}
+.design-1 .row {
+  background: url("/images/blog-img.jfif") no-repeat, #202020;
+  height: 500px;
+  background-size: cover;
+}
+.design-1 .row .right {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.32) 12.09%, rgba(68, 67, 67, 0.32) 49.53%, rgba(0, 0, 0, 0.32) 89.26%);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(35px);
+  padding: 60px 40px;
+}
+.design-1 .row .right p {
+  font-family: "Chivo", sans-serif;
+  font-size: 34px;
+  line-height: 54px;
+}
+.design-1 .row .right li {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.common-cta {
+  background-color: #2A2A2A;
+  padding: 50px 250px;
+  margin-top: 60px;
+  text-align: center;
+}
+.common-cta h4 {
+  font-family: "Chivo", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #F2F2F7;
+}
+.common-cta p {
+  font-family: "Chivo", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #B6B6B6;
+}
+.common-cta .btn {
+  padding: 18px 40px;
+  background-color: #EE2351;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.design-2 {
+  color: #F2F2F7;
+}
+.design-2 h2 {
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.design-2 .img-div {
+  height: 350px;
+  background: url("/images/blog-img.jfif"), #202020;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+.design-2 .img-div .text-div {
+  padding: 40px 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.32) 12.09%, rgba(68, 67, 67, 0.32) 49.53%, rgba(0, 0, 0, 0.32) 89.26%);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(35px);
+  width: 100%;
+  font-family: "Chivo", sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 45px;
+}
+
 @media (max-width: 767px) {
   .banner .banner-section .inner-banner-div {
     padding-bottom: 60px;
@@ -574,5 +786,78 @@ footer .quick-link .left-quick-link ul li {
   }
   .section-7 h2 {
     margin-bottom: 20px;
+  }
+  footer {
+    padding: 100px 0px 0px;
+  }
+  .services__page .hero-section {
+    padding: 20px;
+  }
+  .services__page .hero-section .inner-div h2 {
+    font-size: 48px;
+  }
+  .services__page .wrapper .element {
+    padding: 25px;
+  }
+  .services__page .wrapper .element h3 {
+    font-size: 24px;
+  }
+  .services__page .highlighted-section {
+    padding: 20px 10px;
+  }
+  .services__page .highlighted-section .inner-div {
+    padding: 20px;
+  }
+  .services__page .highlighted-section .inner-div .left p {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .common-banner {
+    padding: 20px;
+  }
+  .common-banner h2 {
+    font-size: 38px;
+  }
+  .common-text {
+    padding-bottom: 30px;
+  }
+  .design-1 {
+    padding: 20px;
+  }
+  .design-1 h3 {
+    font-size: 24px;
+  }
+  .design-1 .row {
+    height: unset;
+  }
+  .design-1 .row .left {
+    height: 300px;
+  }
+  .design-1 .row .right {
+    padding: 20px;
+  }
+  .design-1 .row .right p {
+    font-size: 28px;
+  }
+  .design-1 .row .right li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .common-cta {
+    padding: 40px 20px;
+  }
+  .common-cta h4 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .common-cta p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .common-banner h2 {
+    line-height: 54px;
+  }
+  .design-2 .img-div .text-div {
+    font-size: 22px;
   }
 }
