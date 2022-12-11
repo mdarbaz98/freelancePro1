@@ -9,6 +9,22 @@
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 600px) {
+  html p {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html p {
+    font-size: 1.2rem !important;
+  }
+  html h2 {
+    font-size: 3.2rem !important;
+  }
+  html h3 {
+    font-size: 2rem !important;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -415,13 +431,13 @@ header nav ul a {
   font-family: "Chivo", sans-serif;
   font-size: 28px;
   line-height: 40px;
-  color: #F2F2F7;
+  color: #f2f2f7;
   margin-bottom: 40px;
 }
 .section-7 .contact-form form label {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
-  color: #F2F2F7;
+  color: #f2f2f7;
 }
 .section-7 .contact-form form input,
 .section-7 .contact-form form select {
@@ -436,7 +452,7 @@ header nav ul a {
 .section-7 .contact-form form button {
   font-family: "Barlow", sans-serif;
   font-size: 15px;
-  background: #EE2351;
+  background: #ee2351;
   padding: 18px 40px;
   border-radius: 50px;
   border: none;
@@ -444,7 +460,7 @@ header nav ul a {
 
 footer {
   padding: 100px 0px;
-  color: #F2F2F7;
+  color: #f2f2f7;
 }
 footer .footer-info {
   display: flex;
@@ -477,7 +493,7 @@ footer .quick-link .left-quick-link p::after {
   bottom: -15px;
   width: 100%;
   height: 2px;
-  background-color: #EE2351;
+  background-color: #ee2351;
 }
 footer .quick-link .left-quick-link ul {
   padding: 20px 20px 20px 0px;
@@ -557,7 +573,7 @@ footer .quick-link .left-quick-link ul li {
   font-size: 34px;
   font-weight: 100;
   line-height: 54px;
-  color: #F2F2F7;
+  color: #f2f2f7;
 }
 .services__page .highlighted-section .inner-div .right .mb-3 {
   flex-grow: 1;
@@ -572,7 +588,7 @@ footer .quick-link .left-quick-link ul li {
   border: none;
   border-radius: 50px;
   padding: 14px 40px;
-  background: #EE2351;
+  background: #ee2351;
   color: #fff;
 }
 .services__page .highlighted-section .inner-div .right p {
@@ -580,7 +596,7 @@ footer .quick-link .left-quick-link ul li {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  color: #8E8E93;
+  color: #8e8e93;
 }
 
 .common-banner {
@@ -603,7 +619,7 @@ footer .quick-link .left-quick-link ul li {
 .common-text {
   padding-top: 60px;
   padding-bottom: 100px;
-  color: #B6B6B6;
+  color: #b6b6b6;
 }
 .common-text .left p {
   font-family: "Chivo", sans-serif;
@@ -613,7 +629,7 @@ footer .quick-link .left-quick-link ul li {
 }
 
 .design-1 {
-  color: #F2F2F7;
+  color: #f2f2f7;
   font-weight: 100;
 }
 .design-1 h3 {
@@ -646,7 +662,7 @@ footer .quick-link .left-quick-link ul li {
 }
 
 .common-cta {
-  background-color: #2A2A2A;
+  background-color: #2a2a2a;
   padding: 50px 250px;
   margin-top: 60px;
   text-align: center;
@@ -656,24 +672,24 @@ footer .quick-link .left-quick-link ul li {
   font-size: 34px;
   font-weight: 400;
   line-height: 54px;
-  color: #F2F2F7;
+  color: #f2f2f7;
 }
 .common-cta p {
   font-family: "Chivo", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
-  color: #B6B6B6;
+  color: #b6b6b6;
 }
 .common-cta .btn {
   padding: 18px 40px;
-  background-color: #EE2351;
+  background-color: #ee2351;
   color: #fff;
   border-radius: 50px;
 }
 
 .design-2 {
-  color: #F2F2F7;
+  color: #f2f2f7;
 }
 .design-2 h2 {
   font-weight: 100;
@@ -712,7 +728,7 @@ footer .quick-link .left-quick-link ul li {
   font-size: 18px;
   font-weight: 100;
   line-height: 32px;
-  color: #B6B6B6;
+  color: #b6b6b6;
 }
 .contact__page .hero .inner p {
   font-family: "Chivo", sans-serif;
@@ -739,7 +755,7 @@ footer .quick-link .left-quick-link ul li {
 }
 .contact__page .form-background .form-wrapper .inner-hero .left p {
   font-family: "Barlow", sans-serif;
-  color: #B6B6B6;
+  color: #b6b6b6;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -753,32 +769,32 @@ footer .quick-link .left-quick-link ul li {
   font-family: "Chivo", sans-serif;
   font-size: 20px;
   font-weight: 100;
-  color: #F2F2F7;
+  color: #f2f2f7;
   margin-bottom: 30px;
 }
 .contact__page .form-background .form-wrapper form {
-  color: #AEAEB2;
+  color: #aeaeb2;
 }
 .contact__page .form-background .form-wrapper form input,
 .contact__page .form-background .form-wrapper form select {
   padding: 1.1rem 1rem;
   background-color: transparent;
-  border: solid 1px #AEAEB2;
-  color: #AEAEB2;
+  border: solid 1px #aeaeb2;
+  color: #aeaeb2;
 }
 .contact__page .form-background .form-wrapper form input::placeholder,
 .contact__page .form-background .form-wrapper form select::placeholder {
-  color: #AEAEB2;
+  color: #aeaeb2;
 }
 .contact__page .form-background .form-wrapper form input:focus,
 .contact__page .form-background .form-wrapper form select:focus {
   box-shadow: none;
 }
 .contact__page .form-background .form-wrapper form select > option {
-  background-color: #2A2A2A;
+  background-color: #2a2a2a;
 }
 .contact__page .form-background .form-wrapper form .btn {
-  background-color: #EE2351;
+  background-color: #ee2351;
   padding: 18px 40px;
   border-radius: 50px;
   color: #fff;
@@ -798,7 +814,7 @@ footer .quick-link .left-quick-link ul li {
   padding-top: 150px;
 }
 .blog__page .line {
-  color: #8E8E93;
+  color: #8e8e93;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   font-weight: 100;
@@ -884,7 +900,7 @@ footer .quick-link .left-quick-link ul li {
   height: 2px;
   left: 0px;
   bottom: -20px;
-  background: linear-gradient(137.95deg, #FFCE07 -2.86%, #F01E50 50.55%, #3CC8E6 102.86%);
+  background: linear-gradient(137.95deg, #ffce07 -2.86%, #f01e50 50.55%, #3cc8e6 102.86%);
 }
 .blog__page .side-bar .line {
   font-size: 13px;
@@ -903,7 +919,7 @@ footer .quick-link .left-quick-link ul li {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
-  color: #F2F2F7;
+  color: #f2f2f7;
   margin-bottom: 10px;
 }
 .blog__page .side-bar li a {
@@ -911,11 +927,88 @@ footer .quick-link .left-quick-link ul li {
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  color: #8E8E93;
+  color: #8e8e93;
   text-decoration: none;
 }
 .blog__page .side-bar li a i {
   transform: rotate(90deg);
+}
+
+.about__us .top {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: "Chivo", sans-serif;
+  color: #fff;
+  font-weight: 100;
+}
+.about__us .top h2 {
+  font-size: 70px;
+  font-weight: 100;
+  line-height: 84px;
+}
+.about__us .top span {
+  font-size: 20px;
+  line-height: 32px;
+  display: block;
+  color: #8E8E93;
+}
+.about__us .top p {
+  font-size: 24px;
+  line-height: 38px;
+}
+.about__us .top img {
+  width: 100%;
+}
+.about__us .highlighted-section {
+  background: url("/images/img1.png") no-repeat center;
+  background-size: cover;
+  padding: 80px 60px 60px 60px;
+}
+.about__us .highlighted-section .inner-div {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 70px;
+  max-width: 1000px;
+  margin: auto;
+}
+.about__us .highlighted-section .inner-div p {
+  text-align: center;
+  color: #fff;
+}
+.about__us .highlighted-section .inner-div p:first-child {
+  font-family: "Chivo", sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 45px;
+}
+.about__us .third h3 {
+  color: #fff;
+  font-family: "Chivo", sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+.about__us .third img {
+  width: 100%;
+}
+.about__us .bottom {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+.about__us .bottom h4 {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+}
+.about__us .bottom li {
+  font-size: 24px;
+  font-weight: 100;
+  color: #F2F2F7;
+}
+.about__us .bottom img {
+  width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -1109,5 +1202,14 @@ footer .quick-link .left-quick-link ul li {
   .blog__page .banner h2 {
     font-size: 26px;
     line-height: 38px;
+  }
+  .about__us .highlighted-section {
+    padding: 10px;
+  }
+  .about__us .highlighted-section .inner-div {
+    padding: 20px;
+  }
+  .about__us .third img {
+    margin-bottom: 30px;
   }
 }

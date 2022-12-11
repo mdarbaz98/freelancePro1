@@ -1,0 +1,17 @@
+@mixin mediaScreen($value) {
+    @if $value == phone {
+        @media only screen and (max-width: 600px) {
+            @content;
+        }
+    }
+    @if $value == tab {
+        @media only screen and (max-width: 900px) {
+            @content;
+        }
+    }
+    @if $value == desktop {
+        @media only screen and (min-width: 1800px) {
+            @content;
+        }
+    }
+}

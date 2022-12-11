@@ -1,0 +1,22 @@
+@use './mixins' as *;
+html{
+    //font size for phone 
+    @include mediaScreen (phone){
+        p{
+            font-size: .5rem;
+        }
+    }
+    @include mediaScreen (tab){
+        p{
+            font-size: 1.2rem !important;
+        }
+        h2{
+            font-size: 3.2rem !important;
+        }
+        h3{
+            font-size: 2rem !important;
+        }
+    }
+    @include mediaScreen (desktop){
+    }
+}
