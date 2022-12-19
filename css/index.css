@@ -53,6 +53,9 @@ header nav {
 header nav a {
   color: #fff !important;
 }
+header nav a img {
+  width: 65px;
+}
 header nav ul a {
   font-size: 1.2rem;
 }
@@ -100,7 +103,7 @@ header nav ul a {
 }
 
 .section-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.055) 0%, rgba(0, 0, 0, 0.132) 59%, rgba(0, 0, 0, 0.154) 100%), url("/images/img1.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.055) 0%, rgba(0, 0, 0, 0.132) 59%, rgba(0, 0, 0, 0.154) 100%), url("../images/img1.png");
   background-size: cover;
   margin-bottom: 330px;
 }
@@ -192,7 +195,7 @@ header nav ul a {
   padding: 80px 60px 40px;
   background: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 59%, rgba(0, 0, 0, 0.5) 100%), url("/images/img2.jfif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 59%, rgba(0, 0, 0, 0.5) 100%), url("../images/img2.jfif");
 }
 .section-3 .inner-div p {
   color: #b6b6b6;
@@ -293,7 +296,7 @@ header nav ul a {
   padding: 100px 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background: url("/images/img1.png") no-repeat;
+  background: url("../images/Mask group.png") no-repeat;
   background-size: cover;
 }
 .section-5 .inner-div {
@@ -504,7 +507,7 @@ footer .quick-link .left-quick-link ul li {
 }
 
 .services__page .hero-section {
-  background-image: url("/images/img1.png");
+  background-image: url("../images/img1.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -557,7 +560,7 @@ footer .quick-link .left-quick-link ul li {
   line-height: 32px;
 }
 .services__page .highlighted-section {
-  background-image: url("/images/img1.png");
+  background-image: url("../images/Frame 122.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
@@ -738,7 +741,7 @@ footer .quick-link .left-quick-link ul li {
 }
 .contact__page .form-background {
   padding: 100px 180px;
-  background: url("/images/img1.png") no-repeat;
+  background: url("../images/img1.png") no-repeat;
   background-size: cover;
 }
 .contact__page .form-background .form-wrapper {
@@ -761,8 +764,9 @@ footer .quick-link .left-quick-link ul li {
   line-height: 32px;
 }
 .contact__page .form-background .form-wrapper .inner-hero .right img {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 160px;
+  padding: 35px;
 }
 .contact__page .form-background .form-wrapper p,
 .contact__page .form-background .form-wrapper .form-heading {
@@ -950,7 +954,7 @@ footer .quick-link .left-quick-link ul li {
   font-size: 20px;
   line-height: 32px;
   display: block;
-  color: #8E8E93;
+  color: #8e8e93;
 }
 .about__us .top p {
   font-size: 24px;
@@ -960,7 +964,7 @@ footer .quick-link .left-quick-link ul li {
   width: 100%;
 }
 .about__us .highlighted-section {
-  background: url("/images/img1.png") no-repeat center;
+  background: url("../images/img1.png") no-repeat center;
   background-size: cover;
   padding: 80px 60px 60px 60px;
 }
@@ -1005,7 +1009,7 @@ footer .quick-link .left-quick-link ul li {
 .about__us .bottom li {
   font-size: 24px;
   font-weight: 100;
-  color: #F2F2F7;
+  color: #f2f2f7;
 }
 .about__us .bottom img {
   width: 100%;

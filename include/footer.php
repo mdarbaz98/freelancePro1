@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-lg-4 col mb-5 mb-lg-0">
                         <div class="footer-info">
-                            <img src="" alt="">
+                            <img src="./images/logo.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur. Feugiat.</p>
                             <div>
                                 <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i></span>9876543210
