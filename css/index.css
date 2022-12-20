@@ -18,12 +18,6 @@
   html p {
     font-size: 1.2rem !important;
   }
-  html h2 {
-    font-size: 3.2rem !important;
-  }
-  html h3 {
-    font-size: 2rem !important;
-  }
 }
 * {
   margin: 0px;
@@ -44,11 +38,18 @@ header nav {
   font-family: "Barlow", sans-serif !important;
   padding-top: 1.2rem !important;
   padding-bottom: 1.2rem !important;
+  z-index: 2;
   color: #fff;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.22) 12.09%, rgba(68, 67, 67, 0.22) 49.53%, rgba(0, 0, 0, 0.22) 89.26%);
   /* Glass effect 2 */
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02);
   backdrop-filter: blur(35px);
+}
+@media (max-width: 767px) {
+  header nav {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
 }
 header nav a {
   color: #fff !important;
@@ -56,8 +57,17 @@ header nav a {
 header nav a img {
   width: 65px;
 }
+@media (max-width: 767px) {
+  header nav a img {
+    width: 58px !important;
+  }
+}
 header nav ul a {
   font-size: 1.2rem;
+}
+header button.navbar-toggler {
+  color: #fff;
+  font-size: 40px;
 }
 
 .banner .banner-section {

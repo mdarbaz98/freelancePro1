@@ -1,7 +1,7 @@
 <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col mb-5 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-5 mb-lg-0">
                         <div class="footer-info">
                             <img src="./images/logo.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur. Feugiat.</p>
@@ -14,7 +14,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col mb-5 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-5 mb-lg-0">
                         <div class="quick-link">
                             <div class="left-quick-link">
                                 <p>quick-link</p>

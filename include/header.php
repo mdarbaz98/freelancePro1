@@ -14,11 +14,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg w-100 position-fixed top-0">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <i class="bi bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="connect-section d-flex flex-column">
