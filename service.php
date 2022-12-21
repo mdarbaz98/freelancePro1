@@ -15,15 +15,15 @@ include ('./include/header.php')
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
                 <div class="element">
-                    <h3>EVENTS<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
+                    <h3>Video Production<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
                 <div class="element">
-                    <h3>EVENTS<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
+                    <h3>Creative and Communication<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
                 <div class="element">
-                    <h3>EVENTS<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
+                    <h3>Marketing Analytics<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
             </div>

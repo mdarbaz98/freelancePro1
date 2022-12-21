@@ -36,8 +36,8 @@ include ('./include/header.php')
             <h3>We partner up with brands for</h3>
             <div class="row">
                 <div class="col-lg-4"><img src="./images/Frame 95.png" alt=""></div>
-                <div class="col-lg-4"><img src="./images/Frame 95.png" alt=""></div>
-                <div class="col-lg-4"><img src="./images/Frame 95.png" alt=""></div>
+                <div class="col-lg-4"><img src="./images/Frame 96.png" alt=""></div>
+                <div class="col-lg-4"><img src="./images/Frame 97.png" alt=""></div>
             </div>
         </div>
     </div>

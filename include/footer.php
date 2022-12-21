@@ -17,19 +17,19 @@
                     <div class="col-lg-4 col-12 mb-5 mb-lg-0">
                         <div class="quick-link">
                             <div class="left-quick-link">
-                                <p>quick-link</p>
+                                <p>Quick links</p>
                                 <ul>
-                                    <li>About us</li>
-                                    <li>About us</li>
-                                    <li>About us</li>
-                                    <li>About us</li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="aboutus.php">About us</a></li>
+                                    <li><a href="service.php">Projects</a></li>
+                                    <li><a href="contactus.php">Contact us</a></li>
                                 </ul>
                             </div>
                             <div class="left-quick-link">
-                                <p>quick-link</p>
+                                <p>Legal</p>
                                 <ul>
-                                    <li>About us</li>
-                                    <li>About us</li>
+                                    <li><a href="">Privacy policy</a></li>
+                                    <li><a href="">Terms and condition</a></li>
                                 </ul>
                             </div>
                         </div>

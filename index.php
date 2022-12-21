@@ -36,27 +36,27 @@ include('./include/header.php')
                     <div class="right-div">
                         <div>
                             <p>
-                                Taking your product in the market aking your product in the market
+                            Taking your product in the market
                             </p>
                         </div>
                         <div>
                             <p>
-                                Taking your product in the market aking your product in the market
+                            Initiate interests and Generate positive communication
                             </p>
                         </div>
                         <div>
                             <p>
-                                Taking your product in the market aking your product in the market
+                            Plan on smooth product purchase 
                             </p>
                         </div>
                         <div>
                             <p>
-                                Taking your product in the market aking your product in the market
+                            Engage customers for a long standing relation
                             </p>
                         </div>
                         <div>
                             <p>
-                                Taking your product in the market aking your product in the market
+                            Most importantly , we inspire Internal stake holders for tomorrows vision
                             </p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ include('./include/header.php')
                 <h2>How to get started.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in.
                     Accumsan praesent egestas tincidunt leo.</p>
-                <strong>Contact us <i class="fa-solid fa-chevron-up"></i></strong>
+                <strong><a href="contactus.php">Contact us</a> <i class="fa-solid fa-chevron-up"></i></strong>
             </div>
             <div class="right-div">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -109,7 +109,7 @@ include('./include/header.php')
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                 <span class="me-2">2</span>
-                                Coffee meet
+                                Discusson
                                 <p></p>
                             </button>
                         </h2>
@@ -123,7 +123,7 @@ include('./include/header.php')
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                 <span class="me-2">3</span>
-                                Coffee meet
+                                Delivery
                                 <p></p>
                             </button>
                         </h2>
