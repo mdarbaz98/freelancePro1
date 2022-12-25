@@ -1382,17 +1382,7 @@ background-size: cover;
 }
 
 .navbar-collapse.show {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    padding: 100px 30px 30px 30px;
-    background-color: #1b1d1d;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
+  height: 100vh;
 }
 
 @media (max-width: 767px) {

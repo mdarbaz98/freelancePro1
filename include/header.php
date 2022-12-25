@@ -20,7 +20,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse py-5 px-3 p-lg-0 navbar-collapse" id="navbarSupportedContent">
                     <div class="connect-section d-flex flex-column">
                         <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i></span>9876543210</p>
                         <p class="mb-0 py-1"><a class="text-decoration-none" href="mailto:support@houseofxp.com"><span class="me-2"><i class="bi bi-envelope"></i></span>Support@houseofxp.com</a>
