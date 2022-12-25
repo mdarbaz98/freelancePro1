@@ -21,15 +21,19 @@
                                 <ul>
                                     <li><a href="/">Home</a></li>
                                     <li><a href="aboutus.php">About us</a></li>
-                                    <li><a href="service.php">Projects</a></li>
-                                    <li><a href="contactus.php">Contact us</a></li>
+                                    <li><a href="contact.php">Contact us</a></li>
+                                    <li><a href="">Privacy policy</a></li>
+                                    <li><a href="">Terms and condition</a></li>
                                 </ul>
                             </div>
                             <div class="left-quick-link">
                                 <p>Legal</p>
                                 <ul>
-                                    <li><a href="">Privacy policy</a></li>
-                                    <li><a href="">Terms and condition</a></li>
+                                    <li><a href="service.php">Services</a></li>
+                                    <li><a href="events.php">Events</a></li>
+                                    <li><a href="video.php">Video Production</a></li>
+                                    <li><a href="creative.php">Creative and Communication</a></li>
+                                    <li><a href="marketing.php">Marketing Analytics</a></li>
                                 </ul>
                             </div>
                         </div>
