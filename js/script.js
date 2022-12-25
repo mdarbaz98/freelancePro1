@@ -8,9 +8,14 @@ $(".accordion-button").click(function () {
 });
 
 var windowLoc = $(location).attr("pathname");
-var homePage = "/freelancePro1/index.php";
+var homePage = "/index.php";
 
 if (windowLoc === homePage || windowLoc === "/") {
+    $(".navbar ").css({
+        background: "transparent",
+        "backdrop-filter": " none",
+        "box-shadow": "none",
+      });
   window.addEventListener("scroll", (event) => {
     if ($(this).scrollTop() < 150) {
       $(".navbar ").css({
