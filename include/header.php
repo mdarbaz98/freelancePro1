@@ -16,17 +16,17 @@
     <header>
         <nav class="navbar navbar-expand-lg w-100 position-fixed top-0">
             <div class="container">
-                <a class="navbar-brand" href="/"><img src="./images/logo.png" alt=""></a>
+                <a class="navbar-brand" href="index.php"><img src="./images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="connect-section d-flex flex-column">
                         <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i></span>9876543210</p>
-                        <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-envelope"></i></span>Example@example.com
+                        <p class="mb-0 py-1"><a class="text-decoration-none" href="mailto:support@houseofxp.com"><span class="me-2"><i class="bi bi-envelope"></i></span>Support@houseofxp.com</a>
                         </p>
                     </div>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="service.php">Services</a>
                         </li>
@@ -34,7 +34,7 @@
                             <a class="nav-link active" aria-current="page" href="aboutus.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contactus.php">Contact Us</a>
+                            <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>

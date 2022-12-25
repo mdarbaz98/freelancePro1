@@ -68,20 +68,21 @@ header nav ul a {
 header button.navbar-toggler {
   color: #fff;
   font-size: 40px;
+  z-index: 1;
 }
 
 .banner .banner-section {
   position: relative;
   overflow: hidden;
+  background: url("../images/X.png") no-repeat right;
 }
 .banner .banner-section .inner-banner-div {
   z-index: 1;
-  padding-bottom: 90px;
-  padding-top: 70px;
+  padding-bottom: 150px;
+  padding-top: 100px;
   color: #fff;
 }
 .banner .banner-section .inner-banner-div .banner-img {
-  background: url("/images/img1.png") center;
   background-size: cover;
   height: 450px;
   width: 100%;
@@ -93,13 +94,21 @@ header button.navbar-toggler {
   font-weight: 100;
   line-height: 84px;
   letter-spacing: 1px;
-  text-align: left;
   max-width: 600px;
+  text-align: left;
   text-transform: uppercase;
 }
 .banner .banner-section .inner-banner-div .banner-img p strong {
   font-weight: 100;
   color: yellow;
+}
+.banner .banner-section .inner-banner-div .banner-img small {
+  max-width: 600px;
+  margin-bottom: 30px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
 }
 .banner .banner-section .inner-banner-div .text-div {
   padding: 50px 75px;
@@ -1037,18 +1046,34 @@ footer .quick-link .left-quick-link ul li {
   width: 100%;
 }
 
+.navbar-collapse.show {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 100px 30px 30px 30px;
+  background-color: #1b1d1d;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
 @media (max-width: 767px) {
   .banner .banner-section .inner-banner-div {
-    padding-bottom: 60px;
-    padding-top: 20px;
+    height: 100vh;
   }
   .banner .banner-section .inner-banner-div .banner-img {
     height: 380px;
-    padding: 100px 35px;
+    padding: 50px 10px;
+  }
+  .banner .banner-section .inner-banner-div .banner-img small {
+    font-size: 15px;
   }
   .banner .banner-section .inner-banner-div .banner-img p {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 45px !important;
+    line-height: 50px;
   }
   .banner .banner-section .inner-banner-div .text-div {
     padding: 50px 30px;

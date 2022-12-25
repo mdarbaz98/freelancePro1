@@ -10,12 +10,7 @@ include('./include/header.php')
                     <p>
                         Let’s meet and discuss our <strong>ideas</strong> and Experience
                     </p>
-                </div>
-                <div class="text-div d-lg-flex justify-content-between align-items-center">
-                    <div>
-                        <h3>Lets talk</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quo!</p>
-                    </div>
+                    <small class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea assumenda, consectetur adipisicing elit.</small>
                     <button class="c-btn">
                         let’s have a coffee
                     </button>
@@ -36,27 +31,27 @@ include('./include/header.php')
                     <div class="right-div">
                         <div>
                             <p>
-                            Taking your product in the market
+                                Taking your product in the market
                             </p>
                         </div>
                         <div>
                             <p>
-                            Initiate interests and Generate positive communication
+                                Initiate interests and Generate positive communication
                             </p>
                         </div>
                         <div>
                             <p>
-                            Plan on smooth product purchase 
+                                Plan on smooth product purchase
                             </p>
                         </div>
                         <div>
                             <p>
-                            Engage customers for a long standing relation
+                                Engage customers for a long standing relation
                             </p>
                         </div>
                         <div>
                             <p>
-                            Most importantly , we inspire Internal stake holders for tomorrows vision
+                                Most importantly , we inspire Internal stake holders for tomorrows vision
                             </p>
                         </div>
                     </div>
@@ -163,7 +158,7 @@ include('./include/header.php')
                 </div>
                 <div class="card">
                     <div class="card-head">
-                        <img src="./images/blog-img.jfif" alt="">
+                        <img src="images/documents-paperwork-business-strategy-concept (1).jpg" alt="">
                     </div>
                     <div class="card-body">
                         <span>Education</span>
@@ -173,7 +168,7 @@ include('./include/header.php')
                 </div>
                 <div class="card">
                     <div class="card-head">
-                        <img src="./images/blog-img.jfif" alt="">
+                        <img src="images/blogImg1.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <span>Education</span>
