@@ -697,14 +697,6 @@ footer {
 
     .element {
       padding: 90px;
-      background: radial-gradient(
-          50% 50% at 50% 50%,
-          rgba(0, 0, 0, 0.48) 0%,
-          rgba(0, 0, 0, 0.8) 100%
-        ),
-        url("/images/img2.jfif");
-      background-repeat: no-repeat;
-      background-size: cover;
       color: #fff;
 
       h3,
@@ -729,6 +721,38 @@ footer {
         font-weight: 400;
         line-height: 32px;
       }
+    }
+    .element.ev{
+      background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(0, 0, 0, 0.48) 0%,
+          rgba(0, 0, 0, 0.8) 100%
+        ),url('../images/events.jpg') no-repeat;
+        background-size: cover;
+    }
+    .element.vd{
+      background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(0, 0, 0, 0.48) 0%,
+          rgba(0, 0, 0, 0.8) 100%
+        ),url('../images/video.jpg') no-repeat;
+        background-size: cover;
+    }
+    .element.cc{
+      background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(0, 0, 0, 0.48) 0%,
+          rgba(0, 0, 0, 0.8) 100%
+        ),url('../images/cc.jpg') no-repeat;
+        background-size: cover;
+    }
+    .element.ma{
+      background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(0, 0, 0, 0.48) 0%,
+          rgba(0, 0, 0, 0.8) 100%
+        ),url('../images/ma.jpg') no-repeat;
+        background-size: cover;
     }
   }
 
@@ -797,13 +821,6 @@ footer {
   margin-top: 100px;
   height: 350px;
   width: 100%;
-  background: radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(0, 0, 0, 0.48) 0%,
-      rgba(0, 0, 0, 0.8) 100%
-    ),
-    url("/images/blog-img.jfif") no-repeat;
-  background-size: cover;
   color: #fff;
 
   h2 {
@@ -814,6 +831,43 @@ footer {
     line-height: 84px;
     max-width: 500px;
   }
+}
+
+.common-banner.evtP{
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.48) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  url("../images/events.jpg") no-repeat;
+background-size: cover;
+}
+.common-banner.marketing{
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.48) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  url("../images/ma.jpg") no-repeat;
+background-size: cover;
+}
+.common-banner.cc{
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.48) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  url("../images/cc.jpg") no-repeat;
+background-size: cover;
+}
+.common-banner.vp{
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.48) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
+  url("../images/video.jpg") no-repeat;
+background-size: cover;
 }
 
 .common-text {
@@ -843,9 +897,8 @@ footer {
   }
 
   .row {
-    background: url("/images/blog-img.jfif") no-repeat, #202020;
     height: 500px;
-    background-size: cover;
+    background-size: cover !important;
 
     .right {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -873,6 +926,15 @@ footer {
         margin-bottom: 20px;
       }
     }
+  }
+  .row.evt1{
+    background: url("../images/evt1.jpg") no-repeat, #202020;
+  }
+  .row.evt2{
+    background: url("../images/evt2.jpg") no-repeat, #202020;
+  }
+  .row.evt3{
+    background: url("../images/evt3.jpg") no-repeat, #202020;
   }
 }
 
@@ -916,9 +978,9 @@ footer {
 
   .img-div {
     height: 350px;
-    background: url("/images/blog-img.jfif"), #202020;
     border-radius: 6px;
     margin-bottom: 25px;
+    background-size: cover !important;
 
     .text-div {
       padding: 40px 20px;
@@ -938,6 +1000,36 @@ footer {
       font-weight: 100;
       line-height: 45px;
     }
+  }
+  .img-div.vd2{
+    background: url("../images/women.jpg"), #202020;
+  }
+  .img-div.vd1{
+    background: url("../images/b-women.jpg"), #202020;
+  }
+  .img-div.creative{
+    background: url("../images/pawn.jpg"), #202020;
+  }
+  .img-div.social{
+    background: url("../images/social.jpg"), #202020;
+  }
+  .img-div.brand{
+    background: url("../images/brand.jpg"), #202020;
+  }
+  .img-div.pr{
+    background: url("../images/pr.jpg"), #202020;
+  }
+  .img-div.digital{
+    background: url("../images/digital.jpg"), #202020;
+  }
+  .img-div.m1{
+    background: url("../images/m1.jpg"), #202020;
+  }
+  .img-div.m2{
+    background: url("../images/m2.jpg"), #202020;
+  }
+  .img-div.m3{
+    background: url("../images/m3.jpg"), #202020;
   }
 }
 
@@ -1487,7 +1579,7 @@ footer {
 
   .common-banner {
     padding: 20px;
-
+    margin-top: 0px;
     h2 {
       font-size: 38px;
     }
@@ -1569,10 +1661,14 @@ footer {
           font-size: 18px;
         }
       }
+      img{
+        width: 100%;
+    padding: 50px;
+      }
     }
 
     .form-background {
-      padding: 20px;
+      padding: 10px;
 
       .form-wrapper {
         padding: 20px;
@@ -1580,8 +1676,10 @@ footer {
         .inner-hero {
           .right {
             img {
-              width: 100%;
-              margin-bottom: 30px;
+              width: unset;
+              height: unset;
+              display: flex;
+              margin: auto;
             }
           }
         }

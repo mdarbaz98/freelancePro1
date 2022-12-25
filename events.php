@@ -2,7 +2,7 @@
 include ('./include/header.php')
 ?>
     <div class="events__page">
-        <div class="common-banner d-flex justify-content-start align-items-center">
+        <div class="common-banner evtP d-flex justify-content-start align-items-center">
             <h2>Evants</h2>
         </div>
         <div class="container">
@@ -17,51 +17,41 @@ include ('./include/header.php')
         </div>
         <div class="design-1 container">
             <h3>Services</h3>
-            <div class="row mb-4">
+            <div class="row evt2 mb-4">
                 <div class="col-md-6 left"></div>
                 <div class="col-md-6 right">
                     <p>For Customers</p>
                     <ul>
+                        <li>Conferences and Seminars</li>
+                        <li>Guerilla marketing </li>
                         <li>Activations</li>
-                        <li>Activ2tions</li>
-                        <li>Activations</li>
-                        <li>Activations</li>
+                        <li>Mice Activity</li>
+                        <li>Trade Shows</li>
                     </ul>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row evt3 mb-4">
                 <div class="col-md-6 left"></div>
                 <div class="col-md-6 right">
-                    <p>For Customers</p>
+                    <p>For Employees</p>
                     <ul>
-                        <li>Activations</li>
-                        <li>Activ2tions</li>
-                        <li>Activations</li>
-                        <li>Activations</li>
+                        <li>Rewards and Recognitions</li>
+                        <li>leadership meets</li>
+                        <li>boardroom meetings</li>
+                        <li>Incentive tours</li>
+                        <li>Employee value propositions</li>
+                        <li>Team building activities</li>
+                        <li>Corporate off sites (Domestic and International)</li>
                     </ul>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row evt1 mb-4">
                 <div class="col-md-6 left"></div>
                 <div class="col-md-6 right">
-                    <p>For Customers</p>
+                    <p>For Partners</p>
                     <ul>
-                        <li>Activations</li>
-                        <li>Activ2tions</li>
-                        <li>Activations</li>
-                        <li>Activations</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mb-4">
-                <div class="col-md-6 left"></div>
-                <div class="col-md-6 right">
-                    <p>For Customers</p>
-                    <ul>
-                        <li>Activations</li>
-                        <li>Activ2tions</li>
-                        <li>Activations</li>
-                        <li>Activations</li>
+                        <li>Dealer and Distributor meets</li>
+                        <li>Incentive tours</li>
                     </ul>
                 </div>
             </div>

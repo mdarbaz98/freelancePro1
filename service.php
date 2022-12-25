@@ -10,19 +10,19 @@ include ('./include/header.php')
         </div>
         <div class="container">
             <div class="wrapper d-flex flex-column gap-4">
-                <div class="element">
+                <div class="element ev">
                     <h3>EVENTS<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
-                <div class="element">
+                <div class="element vd">
                     <h3>Video Production<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
-                <div class="element">
+                <div class="element cc">
                     <h3>Creative and Communication<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>
-                <div class="element">
+                <div class="element ma">
                     <h3>Marketing Analytics<i class="fa-solid ms-3 fa-chevron-up"></i></h3>
                     <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
                 </div>

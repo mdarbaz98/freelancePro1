@@ -2,7 +2,7 @@
 include ('./include/header.php')
 ?>
     <section class="creative__com__page">
-        <div class="common-banner d-flex justify-content-start align-items-center">
+        <div class="common-banner cc d-flex justify-content-start align-items-center">
             <h2>Creative and Communication</h2>
         </div>
         <div class="container">
@@ -20,37 +20,37 @@ include ('./include/header.php')
             <h2>Services:</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div creative d-flex align-items-end">
                         <div class="text-div">
                             Creative
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div social d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        Social
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div brand d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        Brand Strategy and behavioral science
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div pr d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        PR
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div digital d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        Digital Experience 
                         </div>
                     </div>
                 </div>

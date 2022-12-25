@@ -565,9 +565,6 @@ footer .quick-link .left-quick-link ul li {
 }
 .services__page .wrapper .element {
   padding: 90px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("/images/img2.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #fff;
 }
 .services__page .wrapper .element h3,
@@ -588,6 +585,22 @@ footer .quick-link .left-quick-link ul li {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
+}
+.services__page .wrapper .element.ev {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/events.jpg") no-repeat;
+  background-size: cover;
+}
+.services__page .wrapper .element.vd {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/video.jpg") no-repeat;
+  background-size: cover;
+}
+.services__page .wrapper .element.cc {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/cc.jpg") no-repeat;
+  background-size: cover;
+}
+.services__page .wrapper .element.ma {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/ma.jpg") no-repeat;
+  background-size: cover;
 }
 .services__page .highlighted-section {
   background-image: url("../images/Frame 122.png");
@@ -637,8 +650,6 @@ footer .quick-link .left-quick-link ul li {
   margin-top: 100px;
   height: 350px;
   width: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("/images/blog-img.jfif") no-repeat;
-  background-size: cover;
   color: #fff;
 }
 .common-banner h2 {
@@ -648,6 +659,26 @@ footer .quick-link .left-quick-link ul li {
   text-transform: uppercase;
   line-height: 84px;
   max-width: 500px;
+}
+
+.common-banner.evtP {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/events.jpg") no-repeat;
+  background-size: cover;
+}
+
+.common-banner.marketing {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/ma.jpg") no-repeat;
+  background-size: cover;
+}
+
+.common-banner.cc {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/cc.jpg") no-repeat;
+  background-size: cover;
+}
+
+.common-banner.vp {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.8) 100%), url("../images/video.jpg") no-repeat;
+  background-size: cover;
 }
 
 .common-text {
@@ -673,9 +704,8 @@ footer .quick-link .left-quick-link ul li {
   font-weight: 100;
 }
 .design-1 .row {
-  background: url("/images/blog-img.jfif") no-repeat, #202020;
   height: 500px;
-  background-size: cover;
+  background-size: cover !important;
 }
 .design-1 .row .right {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.32) 12.09%, rgba(68, 67, 67, 0.32) 49.53%, rgba(0, 0, 0, 0.32) 89.26%);
@@ -693,6 +723,15 @@ footer .quick-link .left-quick-link ul li {
   font-size: 20px;
   line-height: 38px;
   margin-bottom: 20px;
+}
+.design-1 .row.evt1 {
+  background: url("../images/evt1.jpg") no-repeat, #202020;
+}
+.design-1 .row.evt2 {
+  background: url("../images/evt2.jpg") no-repeat, #202020;
+}
+.design-1 .row.evt3 {
+  background: url("../images/evt3.jpg") no-repeat, #202020;
 }
 
 .common-cta {
@@ -731,9 +770,9 @@ footer .quick-link .left-quick-link ul li {
 }
 .design-2 .img-div {
   height: 350px;
-  background: url("/images/blog-img.jfif"), #202020;
   border-radius: 6px;
   margin-bottom: 25px;
+  background-size: cover !important;
 }
 .design-2 .img-div .text-div {
   padding: 40px 20px;
@@ -745,6 +784,36 @@ footer .quick-link .left-quick-link ul li {
   font-size: 28px;
   font-weight: 100;
   line-height: 45px;
+}
+.design-2 .img-div.vd2 {
+  background: url("../images/women.jpg"), #202020;
+}
+.design-2 .img-div.vd1 {
+  background: url("../images/b-women.jpg"), #202020;
+}
+.design-2 .img-div.creative {
+  background: url("../images/pawn.jpg"), #202020;
+}
+.design-2 .img-div.social {
+  background: url("../images/social.jpg"), #202020;
+}
+.design-2 .img-div.brand {
+  background: url("../images/brand.jpg"), #202020;
+}
+.design-2 .img-div.pr {
+  background: url("../images/pr.jpg"), #202020;
+}
+.design-2 .img-div.digital {
+  background: url("../images/digital.jpg"), #202020;
+}
+.design-2 .img-div.m1 {
+  background: url("../images/m1.jpg"), #202020;
+}
+.design-2 .img-div.m2 {
+  background: url("../images/m2.jpg"), #202020;
+}
+.design-2 .img-div.m3 {
+  background: url("../images/m3.jpg"), #202020;
 }
 
 .contact__page .hero {
@@ -1181,6 +1250,7 @@ footer .quick-link .left-quick-link ul li {
   }
   .common-banner {
     padding: 20px;
+    margin-top: 0px;
   }
   .common-banner h2 {
     font-size: 38px;
@@ -1236,15 +1306,21 @@ footer .quick-link .left-quick-link ul li {
   .contact__page .hero .inner p {
     font-size: 18px;
   }
+  .contact__page .hero img {
+    width: 100%;
+    padding: 50px;
+  }
   .contact__page .form-background {
-    padding: 20px;
+    padding: 10px;
   }
   .contact__page .form-background .form-wrapper {
     padding: 20px;
   }
   .contact__page .form-background .form-wrapper .inner-hero .right img {
-    width: 100%;
-    margin-bottom: 30px;
+    width: unset;
+    height: unset;
+    display: flex;
+    margin: auto;
   }
   .contact__page .form-background .last-heading {
     font-size: 22px;

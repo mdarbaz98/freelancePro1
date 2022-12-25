@@ -2,17 +2,18 @@
 include ('./include/header.php')
 ?>
     <section class="creative__com__page">
-        <div class="common-banner d-flex justify-content-start align-items-center">
+        <div class="common-banner marketing d-flex justify-content-start align-items-center">
             <h2>Marketing Analytics</h2>
         </div>
         <div class="container">
             <div class="common-text row">
                 <div class="left col-md-6">
-                    <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
+                    <p>Improve your ROI with scalable 
+PPC marketing</p>
                 </div>
                 <div class="right col-md-6">
-                   <p>Most brands are driven by Search Engine Optimization (SEO) tactics and have almost forgotten about creating a personal experience with their customers.  Coming up with the best experiential marketing strategies is the first step towards creating an amazing experience for you and your customers.
-                    Video stands as an essential tool in communicating your values to customers. </p>
+                   <p>We align website traffic drivers to end goals. We utilize powerful content and behavioral science , to foster the needs of Millions of Individuals.
+Call to action.</p>
                 </div>
             </div>
         </div>
@@ -20,23 +21,23 @@ include ('./include/header.php')
             <h2>Services:</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div m1 d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        PPC and Paid search 
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div m2 d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        Seo Services
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div m3 d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        Web Design and Development
                         </div>
                     </div>
                 </div>

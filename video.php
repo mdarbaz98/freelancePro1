@@ -2,17 +2,17 @@
 include ('./include/header.php')
 ?>
     <section class="creative__com__page">
-        <div class="common-banner d-flex justify-content-start align-items-center">
+        <div class="common-banner vp d-flex justify-content-start align-items-center">
             <h2>Video Production</h2>
         </div>
         <div class="container">
             <div class="common-text row">
                 <div class="left col-md-6">
-                    <p>The landscape of events have changed over few years . We have been progressive to adapt quickly. We integrate technology with stories and emotions to provide world class experience . </p>
+                    <p>Each viewer has different needs and is looking for messages that are relevant to them. With personalized videos, each video experience might look completely different depending on each viewer’s needs and interests.</p>
                 </div>
                 <div class="right col-md-6">
                    <p>Most brands are driven by Search Engine Optimization (SEO) tactics and have almost forgotten about creating a personal experience with their customers.  Coming up with the best experiential marketing strategies is the first step towards creating an amazing experience for you and your customers.
-                    Video stands as an essential tool in communicating your values to customers. </p>
+Video stands as an essential tool in communicating your values to customers. </p>
                 </div>
             </div>
         </div>
@@ -20,16 +20,16 @@ include ('./include/header.php')
             <h2>Services:</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div vd1 d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        Using research ,
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="img-div d-flex align-items-end">
+                    <div class="img-div vd2 d-flex align-items-end">
                         <div class="text-div">
-                            Creative
+                        reading customer persona
                         </div>
                     </div>
                 </div>
