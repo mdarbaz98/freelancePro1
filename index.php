@@ -29,7 +29,7 @@ include('./include/header.php')
                     <p class="p2">We embrace story as our route to impact the sphere. We work with brands at
                         various stages of Customer Journey</p>
                     <div class="right-div">
-                        <div>
+                        <div class="active">
                             <p>
                                 Taking your product in the market
                             </p>

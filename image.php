@@ -3,7 +3,7 @@ include ('./include/header.php')
 ?>
     <div class="events__page">
         <div class="common-banner evtP d-flex justify-content-start align-items-center">
-            <h2>Evants</h2>
+            <h2>Image Management</h2>
         </div>
         <div class="container line">
         <div class="common-text row">
