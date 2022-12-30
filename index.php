@@ -8,7 +8,7 @@ include('./include/header.php')
             <div class="inner-banner-div">
                 <div class="banner-img">
                     <p>
-                        Let’s meet and discuss our <strong>ideas</strong> and Experience
+                        strike your next campaign over a coffee
                     </p>
                     <small class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea assumenda, consectetur adipisicing elit.</small>
                     <button class="c-btn">
@@ -26,8 +26,13 @@ include('./include/header.php')
                 <p class="p">At HOUSE OF EXPERIENCE we preach emotions and Innovation to bridge the gap between
                     Brands and customers</p>
                 <div class="works">
-                    <p class="p2">We embrace story as our route to impact the sphere. We work with brands at
-                        various stages of Customer Journey</p>
+                    <div>
+                        <span>about us</span>
+
+                        <p class="p2">What attracts you tends to leave a dent in your memory ?</p>
+                        <p class="para">House of Experience is a Roi driven experiential agency. We work on end-to-end projects from brief to inception. our subject experts from consulting, advertising, creative , communication and experiential bring innovations and emotions together. We believe in tinder matching the experience with numbers to make a memorable campaign and that’s where we are headed to. Since ideas can be in any form or structure. We provide 360-degree support to brands in their growth journey. Our services include Content & Creative, video production, Image management and Events.</p>
+                        <p class="para">We also loop these experiential campaigns with performance-based metrics to extract the juice of each penny spend.</p>
+                    </div>
                     <div class="right-div">
                         <div class="active">
                             <p>
@@ -66,11 +71,13 @@ include('./include/header.php')
             </h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quos expedita impedit
                 voluptatibus?</p>
+            <h2>Content and Creative</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
             <ul>
-                <li class="d-flex align-items-center">Events<i class="fa-solid fa-chevron-up"></i></li>
                 <li class="d-flex align-items-center">Video Production<i class="fa-solid fa-chevron-up"></i>
                 </li>
-                <li class="d-flex align-items-center">Creative and Communication<i class="fa-solid fa-chevron-up"></i></li>
+                <li class="d-flex align-items-center">Image Management<i class="fa-solid fa-chevron-up"></i></li>
+                <li class="d-flex align-items-center">Event and Production<i class="fa-solid fa-chevron-up"></i></li>
                 <li class="d-flex align-items-center">Marketing Analytics<i class="fa-solid fa-chevron-up"></i>
                 </li>
             </ul>
@@ -134,7 +141,33 @@ include('./include/header.php')
     </section>
     <section class="section-5">
         <div class="inner-div">
-            <h2>Lorem ipsum dolor sit amet consectetur. Feugiat.</h2>
+            <h2>Shaping the way we work and live</h2>
+            <ul>
+                <li>
+                    <div class="heading">
+                        Humanity
+                    </div>
+                    <div class="para">We recognize that we are people first, and Employees client second.</div>
+                </li>
+                <li>
+                    <div class="heading">
+                        Ingenutiy
+                    </div>
+                    <div class="para">We champion curiosity and advance the craft of modern story telling. </div>
+                </li>
+                <li>
+                    <div class="heading">
+                        Courage
+                    </div>
+                    <div class="para">We table risks, embrace vulnerability and share lessons learned. </div>
+                </li>
+                <li>
+                    <div class="heading">
+                        Integrity
+                    </div>
+                    <div class="para">We’re selective and collaborative with whom we work and inclusive in the work we create. </div>
+                </li>
+            </ul>
             <p>Lorem ipsum dolor sit amet consectetur. Ultrices morbi faucibus pellentesque viverra mi lorem.
                 Dolor rhoncus sed varius tincidunt urna.</p>
             <a href="">know more about us <i class="fa-solid fa-chevron-up"></i></a>
@@ -142,7 +175,7 @@ include('./include/header.php')
     </section>
     <section class="section-6 container">
         <div class="inner-div">
-            <h2>How to get started.</h2>
+            <h2>Blogs</h2>
             <p class="p3">Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in.
                 Accumsan praesent egestas tincidunt leo.</p>
             <div class="blog-list">
@@ -191,11 +224,13 @@ include('./include/header.php')
                         </p>
                         <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-envelope"></i></span>Example@example.com
                         </p>
+                        <button class="c-btn">Contact Us now</button>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="contact-form">
-                        <h2>Enter your details</h2>
+                        <img src="images/Experience Excellence.png" alt="">
+                        <!-- <h2>Enter your details</h2>
                         <form action="">
                             <div class="mb-4 row">
                                 <div class="col-lg-6">
@@ -227,7 +262,7 @@ include('./include/header.php')
 
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>

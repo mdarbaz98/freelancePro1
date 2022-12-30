@@ -28,7 +28,7 @@ include('./include/header.php')
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Animation</div>
                 </div>
             </div>
             <div class="animation-div">
@@ -40,37 +40,37 @@ include('./include/header.php')
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Mixed media</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Screencast</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Animated demo</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Live action</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Live stream</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
                     <div class="color"></div>
-                    <div class="text">Stop motion</div>
+                    <div class="text">Interactive</div>
                 </div>
             </div>
         </div>

@@ -171,6 +171,25 @@ header button.navbar-toggler {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+.section-2 .inner-div .works span {
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B6B6B6;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-2 .inner-div .works p.para {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 .section-2 .inner-div .works p {
   max-width: 500px;
   font-family: "Chivo", sans-serif;
@@ -221,7 +240,8 @@ header button.navbar-toggler {
 }
 .section-3 .inner-div p {
   color: #b6b6b6;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  max-width: 600px;
 }
 .section-3 .inner-div ul {
   padding-left: 0px;
@@ -321,12 +341,13 @@ header button.navbar-toggler {
 .section-5 {
   padding: 100px 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   background: url("../images/Mask group.png") no-repeat;
   background-size: cover;
 }
 .section-5 .inner-div {
   color: #fff;
+  grid-column: 1/4;
 }
 .section-5 .inner-div h2 {
   font-family: "Chivo", sans-serif;
@@ -334,6 +355,31 @@ header button.navbar-toggler {
   font-weight: 100;
   line-height: 48px;
   letter-spacing: 1px;
+  text-align: left;
+}
+.section-5 .inner-div ul {
+  padding-left: 0px;
+  display: flex;
+  gap: 20px;
+  margin: 30px 0px;
+}
+.section-5 .inner-div ul li {
+  list-style: none;
+}
+.section-5 .inner-div ul li .heading {
+  font-family: "Barlow", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.section-5 .inner-div ul li .para {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
   text-align: left;
 }
 .section-5 .inner-div p {
@@ -452,39 +498,14 @@ header button.navbar-toggler {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
 }
+.section-7 .contact-info .c-btn {
+  width: fit-content;
+}
 .section-7 .contact-form {
   padding: 60px;
-  background-color: #202020;
-}
-.section-7 .contact-form h2 {
-  font-family: "Chivo", sans-serif;
-  font-size: 28px;
-  line-height: 40px;
-  color: #f2f2f7;
-  margin-bottom: 40px;
-}
-.section-7 .contact-form form label {
-  font-family: "Barlow", sans-serif;
-  font-size: 18px;
-  color: #f2f2f7;
-}
-.section-7 .contact-form form input,
-.section-7 .contact-form form select {
-  background: #202020;
-  padding: 1.2rem 1rem;
-  color: #fff;
-}
-.section-7 .contact-form form textarea {
-  color: #fff;
-  background: #202020;
-}
-.section-7 .contact-form form button {
-  font-family: "Barlow", sans-serif;
-  font-size: 15px;
-  background: #ee2351;
-  padding: 18px 40px;
-  border-radius: 50px;
-  border: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 footer {
@@ -720,6 +741,23 @@ footer .quick-link .left-quick-link ul li {
   text-align: left;
   color: #B6B6B6;
   max-width: 800px;
+}
+.common-para ul {
+  padding-left: 0px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.common-para ul li {
+  list-style: none;
+  padding: 10px 20px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .row.animi {
@@ -1268,6 +1306,10 @@ footer .quick-link .left-quick-link ul li {
     font-size: 24px;
     line-height: 28px;
   }
+  .section-5 .inner-div ul {
+    flex-direction: column;
+    gap: 20px;
+  }
   .section-6 .inner-div h2 {
     font-size: 28px;
     line-height: 32px;
@@ -1280,7 +1322,12 @@ footer .quick-link .left-quick-link ul li {
   }
   .section-7 .contact-info,
   .section-7 .contact-form {
+    gap: 10px;
     padding: 20px;
+  }
+  .section-7 .contact-info img,
+  .section-7 .contact-form img {
+    width: 100%;
   }
   .section-7 h2 {
     margin-bottom: 20px;

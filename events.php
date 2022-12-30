@@ -22,6 +22,12 @@ Using research, reading customer persona and world class idea we partner with br
         </p>
         <p>Making your content and marketing campaigns more visual, interactive, and gamified you're much more likely to engage your subscribers and consumer</p>
         <p>Our subject matter experts read your customer mind and heart to create a personalised customer experience through content and creative</p>
+        <ul>
+            <li>In their customer acquisition journey</li>
+            <li>Business expansion</li>
+            <li>Customer retention</li>
+            <li>Maintain a healthy relation with your customers</li>
+        </ul>
     </div>
     <div class="design-2 container">
         <h2>Services</h2>
