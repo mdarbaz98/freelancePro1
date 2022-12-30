@@ -1564,6 +1564,59 @@ footer {
   }
 }
 
+// envents page 
+.container.uniq{
+  padding: 50px 50px;
+    border: solid 1px #363636;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+  img.side-img{
+    width: 80px;
+    height: 80px;
+    }
+    .heading{
+      font-family: $font2;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #fff;
+    }
+    .box-container{
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      .boxes{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 15px 20px;
+        border: solid 1px #363636;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+        p{
+          margin-bottom: 0px;
+          color: #fff;
+          font-family: $font2;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+        }
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+    }
+}
+
 .navbar-collapse.show {
   height: 100vh;
 }
