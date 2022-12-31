@@ -34,7 +34,3 @@ if (windowLoc === homePage || windowLoc === "/") {
     }
   });
 }
-
-$('.navbar-toggler').click(function () {
-  $(this).toggleClass('show')
-})
