@@ -8,7 +8,7 @@ $(".accordion-button").click(function () {
 });
 
 var windowLoc = $(location).attr("pathname");
-var homePage = "/index.php";
+var homePage = '/index.php';
 
 if (windowLoc === homePage || windowLoc === "/") {
   $(".navbar ").css({
@@ -25,7 +25,7 @@ if (windowLoc === homePage || windowLoc === "/") {
       });
     } else {
       $(".navbar ").css({
-        background:
+        "background":
           "linear-gradient(0deg,rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 0.01)),linear-gradient(107.02deg,rgba(19, 19, 19, 0.22) 12.09%,rgba(68, 67, 67, 0.22) 49.53%,rgba(0, 0, 0, 0.22) 89.26%)",
         "backdrop-filter": "blur(35px)",
         "box-shadow":
@@ -34,3 +34,7 @@ if (windowLoc === homePage || windowLoc === "/") {
     }
   });
 }
+
+$('.navbar-toggler').click(function () {
+  $('.navbar').toggleClass('toggle')
+})
