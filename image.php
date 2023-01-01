@@ -62,7 +62,7 @@ Using research, reading customer persona and world class idea we partner with br
         <div class="common-cta d-flex flex-column justify-content-center align-items-center ">
             <h4>Do you have any envent in your mind? Let’s discuss</h4>
             <p>By clicking the lets connect button you will redirect ot the contact us page from there we can you can share your contact information.</p>
-            <div class="btn">Let’s connect</div>
+            <button class="btn"><a href="contact.php">Let’s connect</a></button>
         </div>
     </div>
     <?php 

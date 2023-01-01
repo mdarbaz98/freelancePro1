@@ -629,7 +629,10 @@ color: #fff;
       font-size: 18px;
     }
     .c-btn {
-      width: fit-content;
+      width: fit-content;    a{
+        text-decoration: none;
+        color: #fff;
+      }
     }
   }
 
@@ -1148,6 +1151,10 @@ footer {
     background-color: #ee2351;
     color: #fff;
     border-radius: 50px;
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
 
@@ -1242,6 +1249,9 @@ footer {
         font-size: 24px;
         font-weight: 100;
         line-height: 38px;
+        a{
+          color: #b6b6b6;
+        }
       }
     }
   }
