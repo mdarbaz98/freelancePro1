@@ -17,7 +17,7 @@ include ('./include/header.php')
                         relations and Events. </p>
                 </div>
                 <div class="col-lg-4">
-                    <img class="mt-md-5 pt-md-5" src="images/img1.png" alt="">
+                    <img class="mt-md-5 pt-md-5" src="./images/logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -35,9 +35,15 @@ include ('./include/header.php')
         <div class="container">
             <h3>We partner up with brands for</h3>
             <div class="row">
+<<<<<<< HEAD
                 <div class="col-lg-4"><img src="images/Frame 95.png" alt=""></div>
                 <div class="col-lg-4"><img src="images/Frame 95.png" alt=""></div>
                 <div class="col-lg-4"><img src="images/Frame 95.png" alt=""></div>
+=======
+                <div class="col-lg-4"><img src="./images/Frame 95.png" alt=""></div>
+                <div class="col-lg-4"><img src="./images/Frame 96.png" alt=""></div>
+                <div class="col-lg-4"><img src="./images/Frame 97.png" alt=""></div>
+>>>>>>> bcbedc05fee2f76b5884583bf3c0416669b7e1d6
             </div>
         </div>
     </div>
@@ -57,7 +63,11 @@ include ('./include/header.php')
                         preaching Research led discussion, Involving human emotions and behaviours ,</p>
                 </div>
                 <div class="col-lg-7">
+<<<<<<< HEAD
                     <img src="images/Brand 1.png" alt="">
+=======
+                    <img src="./images/Brand 1.png" alt="">
+>>>>>>> bcbedc05fee2f76b5884583bf3c0416669b7e1d6
                 </div>
             </div>
         </div>
