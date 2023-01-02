@@ -12,7 +12,7 @@ include('./include/header.php')
                     </p>
                     <small class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea assumenda, consectetur adipisicing elit.</small>
                     <button class="c-btn">
-                        let’s have a coffee
+                        <a href="contact.php" class=" text-decoration-none text-white">let’s have a coffee</a>
                     </button>
                 </div>
             </div>
@@ -105,7 +105,7 @@ include('./include/header.php')
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="coffee" role="tabpanel" aria-labelledby="coffee-tab">
-                        <img src="./images/vector.png" alt="">
+                        <img src="./images/logo.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
                     </div>
                     <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab">.2.</div>

@@ -38,6 +38,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-12 mb-5 mb-lg-0">
+                        <div class="quick-link">
+                            <div class="left-quick-link">
+                                <p>Social Links</p>
+                                <ul>
+                                    <li><a href="service.php">Facebook</a></li>
+                                    <li><a href="events.php">Instagram</a></li>
+                                    <li><a href="video.php">LinkedIn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
     </div>
