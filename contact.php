@@ -31,7 +31,7 @@ include ('./include/header.php')
                             Call to action (Lead submission query )</p>
                     </div>
                     <div class="right">
-                        <img src="/images/img1.png" alt="">
+                        <img src="images/img1.png" alt="">
                     </div>
                 </div>
                 <p>Personal information</p>
