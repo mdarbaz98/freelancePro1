@@ -955,6 +955,12 @@ footer .quick-link .left-quick-link ul li {
   background: url("../images/m3.jpg"), #202020;
 }
 
+.toggle {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.22) 12.09%, rgba(68, 67, 67, 0.22) 49.53%, rgba(0, 0, 0, 0.22) 89.26%) !important;
+  backdrop-filter: blur(35px) !important;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02) !important;
+}
+
 .contact__page .hero {
   padding: 150px 0px 400px;
 }
@@ -1255,12 +1261,6 @@ footer .quick-link .left-quick-link ul li {
 }
 .about__us .bottom img {
   width: 100%;
-}
-
-.toggle {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.22) 12.09%, rgba(68, 67, 67, 0.22) 49.53%, rgba(0, 0, 0, 0.22) 89.26%) !important;
-  backdrop-filter: blur(35px) !important;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02) !important;
 }
 
 .container.uniq {
