@@ -264,7 +264,7 @@ header {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
 
-        div {
+        .high {
           p {
             font-family: $font1;
             font-size: 16px;
@@ -303,9 +303,6 @@ header {
               #3b95ae
             );
           }
-        }
-        div.active {
-         
         }
       }
     }
