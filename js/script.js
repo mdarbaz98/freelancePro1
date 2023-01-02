@@ -10,6 +10,7 @@ $(".accordion-button").click(function () {
 var windowLoc = $(location).attr("pathname");
 var homePage = '/index.php';
 
+
 if (windowLoc === homePage || windowLoc === "/") {
   $(".navbar ").css({
     background: "transparent",
