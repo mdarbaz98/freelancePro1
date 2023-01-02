@@ -8,6 +8,10 @@
   padding: 18px 40px 18px 40px;
   text-transform: uppercase;
 }
+.c-btn a {
+  text-decoration: none;
+  color: #fff;
+}
 
 @media only screen and (max-width: 600px) {
   html p {
