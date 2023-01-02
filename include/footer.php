@@ -8,9 +8,7 @@
                             <div>
                                 <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i></span>9876543210
                                 </p>
-                                <p class="mb-0 py-1"><span class="me-2"><i
-                                            class="bi bi-envelope"></i></span>Example@example.com
-                                </p>
+                                <p class="mb-0 py-1"><span class="me-2"><a class="text-decoration-none" href="mailto:support@houseofxp.com"><span class="me-2"><i class="bi bi-envelope"></i></span>Support@houseofxp.com</a></p>
                             </div>
                         </div>
                     </div>

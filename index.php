@@ -199,7 +199,7 @@ include('./include/header.php')
                         </p>
                         <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-envelope"></i></span>Example@example.com
                         </p>
-                        <button class="c-btn">Contact Us now</button>
+                        <button class="c-btn"><a href="contact.php">Contact Us now</a></button>
                     </div>
                 </div>
                 <div class="col-lg-7">

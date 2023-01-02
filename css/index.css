@@ -522,6 +522,10 @@ header button.navbar-toggler {
 .section-7 .contact-info .c-btn {
   width: fit-content;
 }
+.section-7 .contact-info .c-btn a {
+  text-decoration: none;
+  color: #fff;
+}
 .section-7 .contact-form {
   padding: 60px;
   height: 100%;
@@ -891,6 +895,10 @@ footer .quick-link .left-quick-link ul li {
   color: #fff;
   border-radius: 50px;
 }
+.common-cta .btn a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .design-2 {
   color: #f2f2f7;
@@ -969,6 +977,9 @@ footer .quick-link .left-quick-link ul li {
   font-size: 24px;
   font-weight: 100;
   line-height: 38px;
+}
+.contact__page .hero .inner p a {
+  color: #b6b6b6;
 }
 .contact__page .form-background {
   padding: 100px 180px;
@@ -1244,6 +1255,12 @@ footer .quick-link .left-quick-link ul li {
 }
 .about__us .bottom img {
   width: 100%;
+}
+
+.toggle {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)), linear-gradient(107.02deg, rgba(19, 19, 19, 0.22) 12.09%, rgba(68, 67, 67, 0.22) 49.53%, rgba(0, 0, 0, 0.22) 89.26%) !important;
+  backdrop-filter: blur(35px) !important;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11), 0px 2px 16px 18px rgba(0, 0, 0, 0.02) !important;
 }
 
 .container.uniq {

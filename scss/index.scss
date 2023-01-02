@@ -629,7 +629,10 @@ color: #fff;
       font-size: 18px;
     }
     .c-btn {
-      width: fit-content;
+      width: fit-content;    a{
+        text-decoration: none;
+        color: #fff;
+      }
     }
   }
 
@@ -1148,6 +1151,10 @@ footer {
     background-color: #ee2351;
     color: #fff;
     border-radius: 50px;
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
 
@@ -1242,6 +1249,9 @@ footer {
         font-size: 24px;
         font-weight: 100;
         line-height: 38px;
+        a{
+          color: #b6b6b6;
+        }
       }
     }
   }
@@ -1562,6 +1572,13 @@ footer {
       width: 100%;
     }
   }
+}
+
+.toggle{
+  background:
+          linear-gradient(0deg,rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 0.01)),linear-gradient(107.02deg,rgba(19, 19, 19, 0.22) 12.09%,rgba(68, 67, 67, 0.22) 49.53%,rgba(0, 0, 0, 0.22) 89.26%) !important;
+          backdrop-filter: blur(35px) !important;
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11),0px 2px 16px 18px rgba(0, 0, 0, 0.02) !important;
 }
 
 // envents page 
