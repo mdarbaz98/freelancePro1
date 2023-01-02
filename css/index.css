@@ -218,6 +218,7 @@ header button.navbar-toggler {
   border: 1px solid transparent;
   border-image: linear-gradient(45deg, #ffce07, #f01e50, #3cc8e6);
   border-image-slice: 1;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .section-2 .inner-div .works .right-div div p {
   font-family: "Barlow", sans-serif;
@@ -234,10 +235,9 @@ header button.navbar-toggler {
 .section-2 .inner-div .works .right-div div:last-child {
   grid-column: 1/3;
 }
-.section-2 .inner-div .works .right-div div.active {
+.section-2 .inner-div .works .right-div div:hover {
   background-image: linear-gradient(to right bottom, #cb980b, #d08212, #d26c1f, #cf552b, #c93e37, #c93556, #bf3872, #ac438b, #8a61af, #5d78bf, #3789bc, #3b95ae);
 }
-
 .section-3 {
   color: #fff;
 }

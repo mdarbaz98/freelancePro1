@@ -34,7 +34,7 @@ include('./include/header.php')
                         <p class="para">We also loop these experiential campaigns with performance-based metrics to extract the juice of each penny spend.</p>
                     </div>
                     <div class="right-div">
-                        <div class="active">
+                        <div>
                             <p>
                                 Taking your product in the market
                             </p>

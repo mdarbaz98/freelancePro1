@@ -285,23 +285,27 @@ header {
           &:last-child {
             grid-column: 1 / 3;
           }
+          transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+          &:hover{
+            background-image: linear-gradient(
+              to right bottom,
+              #cb980b,
+              #d08212,
+              #d26c1f,
+              #cf552b,
+              #c93e37,
+              #c93556,
+              #bf3872,
+              #ac438b,
+              #8a61af,
+              #5d78bf,
+              #3789bc,
+              #3b95ae
+            );
+          }
         }
         div.active {
-          background-image: linear-gradient(
-            to right bottom,
-            #cb980b,
-            #d08212,
-            #d26c1f,
-            #cf552b,
-            #c93e37,
-            #c93556,
-            #bf3872,
-            #ac438b,
-            #8a61af,
-            #5d78bf,
-            #3789bc,
-            #3b95ae
-          );
+         
         }
       }
     }
