@@ -351,16 +351,16 @@ header button.navbar-toggler {
   background-color: transparent !important;
   border: none;
 }
-.section-4 .container .tab-container .tab-content .tab-pane {
+.section-4 .container .tab-container .tab-content .tab-pane .inner {
   float: left;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.section-4 .container .tab-container .tab-content .tab-pane img {
+.section-4 .container .tab-container .tab-content .tab-pane .inner img {
   width: 125px;
 }
-.section-4 .container .tab-container .tab-content .tab-pane p {
+.section-4 .container .tab-container .tab-content .tab-pane .inner p {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -1269,7 +1269,7 @@ footer .quick-link .left-quick-link ul li {
 }
 
 .container.uniq {
-  padding: 50px 50px;
+  padding: 90px 50px;
   border: solid 1px #363636;
   border-radius: 8px;
   background-color: #2a2a2a;
@@ -1277,6 +1277,7 @@ footer .quick-link .left-quick-link ul li {
 .container.uniq img.side-img {
   width: 80px;
   height: 80px;
+  object-fit: contain;
 }
 .container.uniq .heading {
   font-family: "Chivo", sans-serif;
@@ -1314,7 +1315,7 @@ footer .quick-link .left-quick-link ul li {
   font-family: "Chivo", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -1344,9 +1345,6 @@ footer .quick-link .left-quick-link ul li {
   .banner .banner-section .inner-banner-div .text-div p {
     margin-bottom: 20px;
   }
-  .section-2 {
-    margin-bottom: 0px;
-  }
   .section-2 .inner-div {
     padding: 20px 0px;
   }
@@ -1371,7 +1369,7 @@ footer .quick-link .left-quick-link ul li {
   .section-2 .inner-div .works .right-div {
     display: block;
   }
-  .section-2 .inner-div .works .right-div div {
+  .section-2 .inner-div .works .right-div .high {
     margin-bottom: 20px;
   }
   .section-3 .inner-div {

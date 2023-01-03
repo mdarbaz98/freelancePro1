@@ -105,11 +105,15 @@ include('./include/header.php')
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="coffee" role="tabpanel" aria-labelledby="coffee-tab">
-                        <img src="./images/logo.png" alt="">
+                       <div class="inner">
+                       <img src="./images/logo.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
+                       </div>
                     </div>
-                    <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab">.2.</div>
-                    <div class="tab-pane fade" id="Delivery" role="tabpanel" aria-labelledby="Delivery-tab">.3.</div>
+                    <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab"><div class="inner"><img src="./images/Vector.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
+                    <div class="tab-pane fade" id="Delivery" role="tabpanel" aria-labelledby="Delivery-tab"><div class="inner"> <img src="./images/X.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
                 </div>
             </div>
         </div>
