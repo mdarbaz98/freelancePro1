@@ -1,0 +1,20 @@
+
+RewriteEngine On
+RewriteRule ^xp-admin/?$ xp-admin/index.php [NC,L]
+RewriteRule ^$ index.php [NC,L]
+RewriteRule ^about-us/?$ about.php [NC,L]
+RewriteRule ^medications/?$ product.php [NC,L]
+RewriteRule ^privacy-policy/?$ privacypolicy.php [NC,L]
+RewriteRule ^our-content-policy/?$ contentpolicy.php [NC,L]
+RewriteRule ^terms-and-conditions/?$ termsandcondition.php [NC,L]
+RewriteRule ^author/([^/\.]+)/?$ author.php?slug=$1 [NC,L]
+
+RewriteRule ^category/([^/\.]+)/?$ category.php?cat=$1 [NC,L]
+
+RewriteRule ^lifestyle/([^/\.]+)/?$ subcategory.php?subcat=$1 [NC,L]
+RewriteRule ^womens-health/([^/\.]+)/?$ subcategory.php?subcat=$1 [NC,L]
+RewriteRule ^mens-health/([^/\.]+)/?$ subcategory.php?subcat=$1 [NC,L]
+RewriteRule ^general-health/([^/\.]+)/?$ subcategory.php?subcat=$1 [NC,L]
+RewriteRule ^404/?$ error_redirect.php [NC,L]
+RewriteRule ^([0-9a-zA_Z_-]+)/$ blogpage.php?title=$1 [NC,L]
+RewriteRule ^([0-9a-zA_Z_-]+)$ blogpage.php?title=$1 [NC,L]
