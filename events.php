@@ -67,35 +67,35 @@ include('./include/header.php')
     </div>
     <div class="container uniq my-5">
         <div class="row">
-            <div class="col-md-3">
-                <img class="side-img" src="images/Vector.png" alt="">
-                <div class=" heading">Employees</div>
+            <div class="col-md-3 text-center mb-4 mb-md-0">
+                <img class="side-img mb-3" src="images/evt_card.png" alt="">
+                <div class=" heading text-center ">Employees</div>
             </div>
             <div class="col-md-9">
                 <div class="box-container">
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
+                    <i class="fa-solid fa-award text-white"></i>
                         <p>Rewards and recognitions</p>
                     </div>
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-solid fa-book-open-reader text-white"></i>
+                        <p>leadership meets</p>
                     </div>
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-solid fa-door-open text-white"></i>
+                        <p>boardroom meetings</p>
                     </div>
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-solid fa-comment-dollar text-white"></i>
+                        <p>incentive tours</p>
                     </div>
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-solid fa-people-group text-white"></i>
+                        <p>team building activities</p>
                     </div>
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-solid fa-cubes text-white"></i>
+                        <p>corporate off sites</p>
                     </div>
                 </div>
             </div>
@@ -103,19 +103,19 @@ include('./include/header.php')
     </div>
     <div class="container uniq my-5">
         <div class="row">
-            <div class="col-md-3">
-                <img class="side-img" src="images/Vector.png" alt="">
-                <div class=" heading">Employees</div>
+            <div class="col-md-3 text-center">
+                <img class="side-img mb-3" src="images/evt_hand.png" alt="">
+                <div class=" heading text-center"> Partners</div>
             </div>
             <div class="col-md-9">
                 <div class="box-container">
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-regular fa-handshake text-white"></i>
+                        <p>dealer and distributor meets</p>
                     </div>
                     <div class="boxes">
-                        <img src="images/Vector.png" alt="">
-                        <p>Rewards and recognitions</p>
+                    <i class="fa-solid fa-comment-dollar text-white"></i>
+                        <p>incentive tours</p>
                     </div>
                 </div>
             </div>

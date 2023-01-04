@@ -405,7 +405,7 @@ header {
           display: flex;
           align-items: center;
           gap: 20px;
-          &:hover{
+          &:hover {
             border-color: transparent !important;
           }
           span {
@@ -432,21 +432,23 @@ header {
       }
       .tab-content {
         .tab-pane {
-          float: left;
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-          img{
-            width: 125px;
-          }
-          p{
-            font-family: $font1;
-font-size: 18px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0px;
-text-align: left;
-color: #fff;
+          .inner {
+            float: left;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            img {
+              width: 125px;
+            }
+            p {
+              font-family: $font1;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 32px;
+              letter-spacing: 0px;
+              text-align: left;
+              color: #fff;
+            }
           }
         }
       }
@@ -636,7 +638,8 @@ color: #fff;
       font-size: 18px;
     }
     .c-btn {
-      width: fit-content;    a{
+      width: fit-content;
+      a {
         text-decoration: none;
         color: #fff;
       }
@@ -1158,7 +1161,7 @@ footer {
     background-color: #ee2351;
     color: #fff;
     border-radius: 50px;
-    a{
+    a {
       text-decoration: none;
       color: #fff;
     }
@@ -1256,7 +1259,7 @@ footer {
         font-size: 24px;
         font-weight: 100;
         line-height: 38px;
-        a{
+        a {
           color: #b6b6b6;
         }
       }
@@ -1581,57 +1584,57 @@ footer {
   }
 }
 
-// envents page 
-.container.uniq{
-  padding: 50px 50px;
-    border: solid 1px #363636;
-    border-radius: 8px;
-    background-color: #2a2a2a;
-  img.side-img{
+// envents page
+.container.uniq {
+  padding: 90px 50px;
+  border: solid 1px #363636;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  img.side-img {
     width: 80px;
     height: 80px;
-    }
-    .heading{
-      font-family: $font2;
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 38px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #fff;
-    }
-    .box-container{
+    object-fit: contain;
+  }
+  .heading {
+    font-family: $font2;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+  }
+  .box-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    .boxes {
       display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-      .boxes{
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        padding: 15px 20px;
-        border: solid 1px #363636;
-        img{
-          width: 20px;
-          height: 20px;
-        }
-        p{
-          margin-bottom: 0px;
-          color: #fff;
-          font-family: $font2;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-
-        }
-        border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
-}
+      gap: 20px;
+      align-items: center;
+      padding: 15px 20px;
+      border: solid 1px #363636;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+      p {
+        margin-bottom: 0px;
+        color: #fff;
+        font-family: $font2;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
     }
+  }
 }
 
 .navbar-collapse.show {
@@ -1668,7 +1671,6 @@ text-align: left;
   }
 
   .section-2 {
-    margin-bottom: 0px;
     .inner-div {
       padding: 20px 0px;
 
@@ -1696,7 +1698,7 @@ text-align: left;
         .right-div {
           display: block;
 
-          div {
+          .high {
             margin-bottom: 20px;
           }
         }
@@ -1734,19 +1736,19 @@ text-align: left;
           line-height: 28px;
         }
       }
-      .tab-container{
+      .tab-container {
         display: flex;
-    flex-direction: column;
-    ul{
-         margin: 20px 0px 20px 0px;
-         .nav-link{
-          font-size: 25px;
-          span{
-            width: 35px;
-            height: 35px
-          };
-         }
-    }
+        flex-direction: column;
+        ul {
+          margin: 20px 0px 20px 0px;
+          .nav-link {
+            font-size: 25px;
+            span {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
       }
     }
   }
