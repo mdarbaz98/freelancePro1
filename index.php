@@ -10,7 +10,6 @@ include('./include/header.php')
                     <p>
                         strike your next campaign over a coffee
                     </p>
-                    <small class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea assumenda, consectetur adipisicing elit.</small>
                     <button class="c-btn">
                         <a href="contact.php" class=" text-decoration-none text-white">let’s have a coffee</a>
                     </button>
@@ -27,35 +26,43 @@ include('./include/header.php')
                     Brands and customers</p>
                 <div class="works">
                     <div>
-                        <span>about us</span>
+                        <span></span>
 
-                        <p class="p2">What attracts you tends to leave a dent in your memory ?</p>
-                        <p class="para">House of Experience is a Roi driven experiential agency. We work on end-to-end projects from brief to inception. our subject experts from consulting, advertising, creative , communication and experiential bring innovations and emotions together. We believe in tinder matching the experience with numbers to make a memorable campaign and that’s where we are headed to. Since ideas can be in any form or structure. We provide 360-degree support to brands in their growth journey. Our services include Content & Creative, video production, Image management and Events.</p>
-                        <p class="para">We also loop these experiential campaigns with performance-based metrics to extract the juice of each penny spend.</p>
+                        <p class="p2">
+
+                        </p>
+                        <p style="font-size:18px"; class="para">The interactions a customer has with a brand is now made up of multiple touchpoints, both offline and online. As a result, customers now have heightened expectations of the brand exposure they are receiving. They expect any advertising, marketing, and branding to match their unique needs and interests. Without this component, 
+                            brands may fail to get their attention and business.
+                            </p>
+
+                        
+                            <p  style="font-size:18px"; class="para";>At House of XP we believe in the power of storytelling to create an emotional connection between brands, their products and customers. Developing a successful brand story telling strategy can help in driving conversations and , ultimately revenue growth. That's where we take a holistic approach to our clients' marketing needs, from ideation and strategy uptill execution.
+                        </p>
+                        <p  style="font-size:18px";  class="para">We also loop these experiential campaigns with performance-based metrics to extract the juice of each penny spend.</p>
                     </div>
                     <div class="right-div">
                         <div class="high">
-                            <p>
+                            <p align="justify">
                                 Taking your product in the market
                             </p>
                         </div>
                         <div class="high">
-                            <p>
+                            <p align="justify">
                                 Initiate interests and Generate positive communication
                             </p>
                         </div>
                         <div class="high">
-                            <p>
+                            <p align="justify">
                                 Plan on smooth product purchase
                             </p>
                         </div>
                         <div class="high">
-                            <p>
+                            <p align="justify">
                                 Engage customers for a long standing relation
                             </p>
                         </div>
                         <div class="high">
-                            <p>
+                            <p align="justify">
                                 Most importantly , we inspire Internal stake holders for tomorrows vision
                             </p>
                         </div>
@@ -67,55 +74,24 @@ include('./include/header.php')
     <section class="section-3 container">
         <div class="inner-div">
             <h2>
-                Services
+                Services we offer               
             </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quos expedita impedit
-                voluptatibus?</p>
-            <h2>Content and Creative</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
+            <p class="mb-4">
+
+            </p>
+
+            <div class="high">
             <ul>
-                <li class="d-flex align-items-center"><a href="video.php">Video Production<i class="fa-solid fa-chevron-up"></a></i>
+            <li class="d-flex align-items-center"><a href="creative.php">Content and Creatives</a>
+
+                <li class="d-flex align-items-center"><a href="video.php">Video Production</a>
                 </li>
-                <li class="d-flex align-items-center"><a href="image.php">Image Management<i class="fa-solid fa-chevron-up"></i></a></li>
-                <li class="d-flex align-items-center"><a href="events.php">Event and Production<i class="fa-solid fa-chevron-up"></i></a></li>
-                <li class="d-flex align-items-center"><a href="marketing.php">Marketing Analytics<i class="fa-solid fa-chevron-up"></i></a>
+                <li class="d-flex align-items-center"><a href="image.php">Image Management</a></li>
+                <li class="d-flex align-items-center"><a href="events.php">Event and Production</a></li>
+                <li class="d-flex align-items-center"><a href="marketing.php">Marketing Analytics</a>
                 </li>
             </ul>
-        </div>
-    </section>
-    <section class="section-4 py-5">
-        <div class="container">
-            <div class="inner">
-                <h2>How to get started.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in.
-                    Accumsan praesent egestas tincidunt leo.</p>
-                <strong><a href="contactus.php">Contact us</a> <i class="fa-solid fa-chevron-up"></i></strong>
-            </div>
-            <div class="tab-container">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="coffee-tab" data-bs-toggle="tab" data-bs-target="#coffee" type="button" role="tab" aria-controls="coffee" aria-selected="true"><span>1</span> coffee meet</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="Discusson-tab" data-bs-toggle="tab" data-bs-target="#Discusson" type="button" role="tab" aria-controls="Discusson" aria-selected="false"><span>2</span> Discusson</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="Delivery-tab" data-bs-toggle="tab" data-bs-target="#Delivery" type="button" role="tab" aria-controls="Delivery" aria-selected="false"><span>3</span> Delivery</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="coffee" role="tabpanel" aria-labelledby="coffee-tab">
-                       <div class="inner">
-                       <img src="./images/logo.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
-                       </div>
-                    </div>
-                    <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab"><div class="inner"><img src="./images/Vector.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
-                    <div class="tab-pane fade" id="Delivery" role="tabpanel" aria-labelledby="Delivery-tab"><div class="inner"> <img src="./images/X.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
-                </div>
-            </div>
+</div>
         </div>
     </section>
     <section class="section-5">
@@ -147,44 +123,81 @@ include('./include/header.php')
                     <div class="para">We’re selective and collaborative with whom we work and inclusive in the work we create. </div>
                 </li>
             </ul>
-            <p>Lorem ipsum dolor sit amet consectetur. Ultrices morbi faucibus pellentesque viverra mi lorem.
-                Dolor rhoncus sed varius tincidunt urna.</p>
-            <a href="">know more about us <i class="fa-solid fa-chevron-up"></i></a>
+            <p></p>
+            <a href="aboutus.php">know more about us <i class="fa-solid fa-chevron-up"></i></a>
         </div>
     </section>
+    <section class="section-4 py-5">
+        <div class="container">
+            <div class="inner">
+                <h2>How to get started.</h2>
+                <p></p>
+            </div>
+            <div class="tab-container">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="coffee-tab" data-bs-toggle="tab" data-bs-target="#coffee" type="button" role="tab" aria-controls="coffee" aria-selected="true"><span>1</span> Coffee meet</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Discusson-tab" data-bs-toggle="tab" data-bs-target="#Discusson" type="button" role="tab" aria-controls="Discusson" aria-selected="false"><span>2</span> Discusson</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Delivery-tab" data-bs-toggle="tab" data-bs-target="#Delivery" type="button" role="tab" aria-controls="Delivery" aria-selected="false"><span>3</span> Delivery</button>
+                    </li>
+                </ul>
+                </div>
+                <div class="inner">
+                <strong><a href="contact.php">Contact us</a> <i class="fa-solid fa-chevron-up"></i></strong>
+            </div>
+            </div>
+        </div>
+    </section>
+   
     <section class="section-6 container">
         <div class="inner-div">
             <h2>Blogs</h2>
-            <p class="p3">Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in.
-                Accumsan praesent egestas tincidunt leo.</p>
+            <p class="p3"> </p>
             <div class="blog-list">
                 <div class="card">
                     <div class="card-head">
-                        <img src="./images/blog-img.jfif" alt="">
+                        <a href="blogpage1.php"> <img  src="./images/blog1.jpeg" alt=""></a>
                     </div>
                     <div class="card-body">
-                        <span>Education</span>
-                        <p>Lorem ipsum dolor sit amet consectetur. Feugiat.</p>
+                        <span>The Effectiveness of Design-Driven Marketing.</span>
+                        <p>
+                        </p>
+                        <a href="blogpage1.php">Read more<i class="fa-solid ms-3 fa-chevron-up"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                    <a href="blogpage2.php"> <img  src="./images/blog2.jpeg" alt=""></a>
+                    </div>
+                    <div class="card-body">
+                        <span>What makes the difference between a good and a great experience:</span>
+                        <p></p>
                         <a href="">Read more<i class="fa-solid ms-3 fa-chevron-up"></i></a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-head">
-                        <img src="images/documents-paperwork-business-strategy-concept (1).jpg" alt="">
+                    <a href="blogpage3.php"> <img  src="./images/blog3.jpeg" alt=""></a>
                     </div>
                     <div class="card-body">
-                        <span>Education</span>
-                        <p>Lorem ipsum dolor sit amet consectetur. Feugiat.</p>
+                        <span>Take advantage of FOMO</span>
+                        <p>
+                        </p>
                         <a href="">Read more<i class="fa-solid ms-3 fa-chevron-up"></i></a>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="card-head">
-                        <img src="images/blogImg1.jpg" alt="">
+                    <a href="blogpage4.php"> <img  src="./images/blog4.jpeg" alt=""></a>
                     </div>
                     <div class="card-body">
-                        <span>Education</span>
-                        <p>Lorem ipsum dolor sit amet consectetur. Feugiat.</p>
+                        <span>Influencer Marketing Trends to Watch in 2022:</span>
+                        <p></p>
                         <a href="">Read more<i class="fa-solid ms-3 fa-chevron-up"></i></a>
                     </div>
                 </div>
@@ -196,14 +209,9 @@ include('./include/header.php')
             <div class="row">
                 <div class="col-lg-5">
                     <div class="contact-info">
-                        <h2>We will call you back</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur. Euismod ut elit eget tristique faucibus
-                            accumsan justo. </p>
-                        <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i></span>9876543210
-                        </p>
-                        <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-envelope"></i></span>Example@example.com
-                        </p>
-                        <button class="c-btn"><a href="contact.php">Contact Us now</a></button>
+                        
+                        
+                        <button class="c-btn"><a href="contact.php">Lets' Connect</a></button>
                     </div>
                 </div>
                 <div class="col-lg-7">

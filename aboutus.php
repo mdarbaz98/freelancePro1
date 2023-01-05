@@ -1,20 +1,39 @@
 <?php 
 include ('./include/header.php')
 ?>
+         <p style="color:blue;font-size:18px;">This is demo text</p>    
+
 <section class="about__us">
     <div class="top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <h2>About us</h2>
-                    <span>What attracts you tends to leave a dent in your memory ?</span>
-                    <p>House of XP is a ROI driven experiential agency . We work on end to end projects from brief to
-                        inception. Our subject experts from Consulting , Advertising , Creative , Communication And
-                        Experiential bring innovations and emotions together. We believe in tinder matching the
-                        experience with numbers to make a memorable campaign and that’s where we are headed to. Since
-                        Ideas can be in any form or structure we provide 360 Degree support to brands in their growth
-                        Journey. Our services include Content , Creative, Video production , communications , Public
-                        relations and Events. </p>
+                    <p style="font-size:18px;">The interactions a customer has with a brand is now made up of multiple touchpoints, both offline and online. As a result, customers now have heightened expectations of the brand exposure they are receiving. They expect any advertising, marketing, and branding to match their unique needs and interests. Without this component, brands may fail to get their attention and business.
+                         </p>
+                         <p style="font-size:18px;">
+                         At House of XP we believe in the power of storytelling to support brands connect with the people they want to serve. That's where we take a holistic approach to our clients' marketing needs, from ideation and strategy uptill execution.
+                        </p>
+                        <p style="font-size:18px;" >
+                        We are a Roi-driven experiential agency that believes in the power of emotion, innovation, and data to bridge the gap between brands and customers. 
+</P>
+<p style="font-size:18px;">
+Our subject matter experts from advertising, creative, communication, Digital Transformation  and Research Scientists  bring decades of experience in curating campaigns that resonate with audiences and drive results.
+</p>
+
+<p style="font-size:18px;">
+We believe in tinder matching the experience with numbers to make a memorable campaign and that’s where we are headed to. Since ideas can be in any form or structure. We provide 360-degree support to brands in their growth journey.     
+</p>
+
+<p style="font-size:18px;">
+Our services include Content & Creative, Web Infrastructure , Video production, Image management and Events.    
+</p>
+
+<p style="font-size:18px;">
+We also loop these experiential campaigns with performance-based metrics to extract the juice of each penny spend.
+</p>
+
+
                 </div>
                 <div class="col-lg-4">
                     <img class="mt-md-5 pt-md-5" src="./images/logo.png" alt="">
@@ -25,15 +44,15 @@ include ('./include/header.php')
     <div class="highlighted-section">
         <div class="container">
             <div class="inner-div row">
-                <p>We embrace technology for the betterment of tomorrow , provide world class experience to brands and
+                <p style= "font-size: 25px";>We embrace technology for the betterment of tomorrow providing world class experience to brands and
                     their customers.</p>
-                <p>We core concept lies in working for the betterment of the humans future .</p>
+                <p  style= "font-size: 18px";> Our core concept lies in working for the betterment of the humans future .</p>
             </div>
         </div>
     </div>
     <div class="third py-lg-5 my-5">
         <div class="container">
-            <h3>We partner up with brands for</h3>
+            <p style= "font-size: 25px;color:white";>Our Partnership with Brands</p>
             <div class="row">
                 <div class="col-lg-4"><img src="./images/Frame 95.png" alt=""></div>
                 <div class="col-lg-4"><img src="./images/Frame 96.png" alt=""></div>
@@ -41,27 +60,7 @@ include ('./include/header.php')
             </div>
         </div>
     </div>
-    <div class="bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>Whats better than a true brand meeting its right customer ?</h4>
-                    <ul class="py-3">
-                        <li>Maintain a healthy relation with their customers</li>
-                        <li>Human partners up with products leverage our subject matter experts as a tool to create
-                            innovative ideas. </li>
-                    </ul>
-                    <p>we can integrate innovation and technology with human emotions. ideas can be in any form , any
-                        shape, any expre we do not restrict ourself with any marketing formats. House of XP has subject
-                        matter experts from various marketing domains who suggest That’s the mantra we follow by
-                        preaching Research led discussion, Involving human emotions and behaviours ,</p>
-                </div>
-                <div class="col-lg-7">
-                    <img src="./images/Brand 1.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </section>
 <?php 
 include ('./include/footer.php')
