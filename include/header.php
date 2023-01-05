@@ -23,11 +23,10 @@
                 </button>
                 <div class="collapse py-5 px-3 p-lg-0 navbar-collapse" id="navbarSupportedContent">
                     <div class="connect-section d-flex flex-column">
-                        <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i></span>9876543210</p>
-                        <p class="mb-0 py-1"><a class="text-decoration-none" href="mailto:support@houseofxp.com"><span class="me-2"><i class="bi bi-envelope"></i></span>Support@houseofxp.com</a>
+                        <p style="font-size:18px" class="mb-0 py-1"><a class="text-decoration-none" href="mailto:hello@houseofxp.com"><span class="me-2"><i class="bi bi-envelope"></i></span>hello@houseofxp.com</a>
                         </p>
                     </div>
-                    <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+                    <ul style="font-size:35px" class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="service.php">Services</a>
                         </li>
