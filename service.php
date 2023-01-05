@@ -5,7 +5,7 @@ include ('./include/header.php')
         <div class="hero-section d-flex justify-content-start align-items-center">
            <div class="inner-div">
             <h2>Services</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Euismod ut elit eget tristique faucibus accumsan justo. </p>
+            
            </div>
         </div>
         <div class="container">
