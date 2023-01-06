@@ -158,7 +158,7 @@ include('./include/header.php')
             <h2>Blogs</h2>
             <p class="p3"> </p>
             <div class="blog-list">
-                <div class="card">
+                <div class="card mb-5">
                     <div class="card-head">
                         <a href="blogpage1.php"> <img  src="./images/blog1.jpeg" alt=""></a>
                     </div>
@@ -169,7 +169,7 @@ include('./include/header.php')
                         <a href="blogpage1.php">Read more<i class="fa-solid ms-3 fa-chevron-up"></i></a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mb-5">
                     <div class="card-head">
                     <a href="blogpage2.php"> <img  src="./images/blog2.jpeg" alt=""></a>
                     </div>
@@ -179,7 +179,7 @@ include('./include/header.php')
                         <a href="">Read more<i class="fa-solid ms-3 fa-chevron-up"></i></a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mb-5">
                     <div class="card-head">
                     <a href="blogpage3.php"> <img  src="./images/blog3.jpeg" alt=""></a>
                     </div>
@@ -191,7 +191,7 @@ include('./include/header.php')
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card mb-5">
                     <div class="card-head">
                     <a href="blogpage4.php"> <img  src="./images/blog4.jpeg" alt=""></a>
                     </div>
