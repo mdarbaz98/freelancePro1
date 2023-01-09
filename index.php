@@ -207,7 +207,7 @@ include('./admin/include/config.php')
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card mb-5">
                     <div class="card-head">
                     <a href="blogpage4.php"> <img  src="./images/blog4.jpeg" alt=""></a>
                     </div>
