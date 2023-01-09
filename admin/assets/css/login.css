@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+::placeholder {
+    color: #b2b4c3;
+  }
+.container-fluid {
+    background-color: #363740;
+    padding: 50px 0px 20px 0px;
+}
+.error{
+color: red !important;
+}
+.login-container {
+    width: 360px;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+}
+
+.login-inputs {
+    margin: 10px 10px 0px 10px;
+}
+
+.login-inputs :focus {
+    outline: none;
+}
+
+.login-inputs input {
+    margin: 5px 0px 0px 0px;
+    padding: 8px 15px 8px 15px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #fcfdfe;
+    border-style: none;
+    border: 1px solid #d1e8ff;
+    font-size: 13px;
+}
+.login-btn{
+    margin-bottom: 50px;
+}
+.login-btn button {
+    padding: 10px 107px 10px 135px;
+    margin: 0px 0px 30px 0px;
+    color: white;
+    background-color: #3751ff;
+    border: 1px solid #3751ff;
+    border-radius: 10px;
+}
+.password-input a{
+    color:#b2b4c3 ;
+    text-decoration: none;
+    font-size: 12px;
+}
+.login-inputs label{
+    color: #abadbe;
+    font-weight: 500;
+    font-size: 14px;
+}
+.login-header p{
+color:#b2b4c3 ;
+}

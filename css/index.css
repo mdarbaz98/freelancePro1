@@ -488,7 +488,7 @@ header button.navbar-toggler {
   font-size: 16px;
   font-weight: 100;
   text-align: left;
-  color: green;
+  color: white;
 }
 .section-6 .inner-div .blog-list .card .card-body p {
   font-family: "Chivo", sans-serif;
@@ -501,7 +501,7 @@ header button.navbar-toggler {
 .section-6 .inner-div .blog-list .card .card-body a {
   font-family: "Barlow", sans-serif;
   font-size: 15px;
-  color: #fff;
+  color: #fece07;
   text-decoration: none;
 }
 .section-6 .inner-div .blog-list .card .card-body a i {
