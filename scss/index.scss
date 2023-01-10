@@ -171,9 +171,9 @@ header {
       )
     ),
     url("../images/about.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 330px;
+  // margin-bottom: 330px;
 
   .inner-div {
     // background: linear-gradient(
@@ -215,7 +215,7 @@ header {
       display: grid;
       color: #ececec;
       grid-template-columns: repeat(2, 1fr);
-      margin-bottom: -300px;
+      // margin-bottom: -300px;
       width: 100%;
       background: rgba(17, 17, 17, 0.8);
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -349,6 +349,45 @@ header {
           -o-transform: rotate(90deg);
         }
       }
+    }
+  }
+}
+
+.new_services_section{
+  h2{
+    font-family: $font2;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 67px;
+    letter-spacing: 0px;
+    text-align: center;
+    @media(max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+  .box{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: rgb(248 248 248 / 76%) 0px 2px 8px 0px;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 20px;
+    img{
+      width: 100%;
+    border-radius: 8px;
+     object-fit: cover;
+      height: 200px;
+      margin: auto;
+    }
+    .box_content{
+      color: #ffffff;
+      text-align: center;
+      margin: 15px 0px 0px;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: capitalize;
     }
   }
 }

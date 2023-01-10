@@ -133,9 +133,8 @@ header button.navbar-toggler {
 
 .section-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.055) 0%, rgba(0, 0, 0, 0.132) 59%, rgba(0, 0, 0, 0.154) 100%), url("../images/about.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 330px;
 }
 .section-2 .inner-div {
   padding-top: 50px;
@@ -170,7 +169,6 @@ header button.navbar-toggler {
   display: grid;
   color: #ececec;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: -300px;
   width: 100%;
   background: rgba(17, 17, 17, 0.8);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -278,6 +276,45 @@ header button.navbar-toggler {
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
+}
+
+.new_services_section h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 67px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .new_services_section h2 {
+    font-size: 35px;
+  }
+}
+.new_services_section .box {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(248, 248, 248, 0.76) 0px 2px 8px 0px;
+  border-radius: 8px;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 20px;
+}
+.new_services_section .box img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+  margin: auto;
+}
+.new_services_section .box .box_content {
+  color: #ffffff;
+  text-align: center;
+  margin: 15px 0px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .section-4 .container {
@@ -488,7 +525,7 @@ header button.navbar-toggler {
   font-size: 16px;
   font-weight: 100;
   text-align: left;
-  color: white;
+  color: green;
 }
 .section-6 .inner-div .blog-list .card .card-body p {
   font-family: "Chivo", sans-serif;
@@ -501,7 +538,7 @@ header button.navbar-toggler {
 .section-6 .inner-div .blog-list .card .card-body a {
   font-family: "Barlow", sans-serif;
   font-size: 15px;
-  color: #fece07;
+  color: #fff;
   text-decoration: none;
 }
 .section-6 .inner-div .blog-list .card .card-body a i {
