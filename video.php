@@ -1,7 +1,4 @@
-<?php
-
-include('./include/header.php')
-?>
+<?php include('./include/header.php'); ?>
 <section class="creative__com__page">
     <div class="common-banner vp d-flex justify-content-start align-items-center">
         <h2>Video Production</h2>

@@ -1,6 +1,6 @@
 
 RewriteEngine On
-RewriteRule ^xp-admin/?$ xp-admin/index.php [NC,L]
+RewriteRule ^xp-admin/?$ admin/index.php [NC,L]
 RewriteRule ^$ index.php [NC,L]
 RewriteRule ^about-us/?$ about.php [NC,L]
 RewriteRule ^medications/?$ product.php [NC,L]
