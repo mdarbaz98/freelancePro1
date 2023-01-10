@@ -12,7 +12,7 @@ include('./admin/include/config.php')
                         strike your next campaign over a coffee
                     </p>
                     <button class="c-btn">
-                        <a href="contact.php" class=" text-decoration-none text-white">let’s have a coffee</a>
+                        <a href="contact.php" class=" text-decoration-none text-white">let’ s connect</a>
                     </button>
                 </div>
             </div>

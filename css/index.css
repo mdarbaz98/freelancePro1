@@ -1056,6 +1056,7 @@ footer .quick-link .left-quick-link ul li {
   border-radius: 50px;
   color: #fff;
   border: none;
+  margin-top: 10px;
 }
 .contact__page .form-background .last-heading {
   font-family: "Chivo", sans-serif;

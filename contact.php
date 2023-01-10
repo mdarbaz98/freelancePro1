@@ -11,7 +11,7 @@ include ('./include/header.php')
                 to foster the needs of Millions of Individuals.
 </p>
             <div class="inner">
-                <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i><a href="tel:+919876543210"></span>+91 9876543210</a>
+                <p class="mb-0 py-1"><span class="me-2"><i class="bi bi-telephone"></i><a href="tel:+917678084459"></span>+91 7678084459</a>
             </p>
                 <p class="mb-0 py-1"><span class="me-2"><a class="text-decoration-none" href="mailto:hello@houseofxp.com"><span class="me-2"><i class="bi bi-envelope"></i></span>hello@houseofxp.com</a>
                 </p>
@@ -35,33 +35,41 @@ include ('./include/header.php')
                     </div>
                 </div>
                 <p>Personal information</p>
-                <form>
+                <form id="contact_details">
                     <div class="row">
                         <div class="mb-4 col-lg-6">
                             <label for="exampleInputEmail1" class="form-label">First Name</label>
-                            <input type="firstname" class="form-control" placeholder="Enter your First Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="text" class="form-control" placeholder="Enter your First Name" id="fname" name="fname" aria-describedby="emailHelp">
                           </div>
                           <div class="mb-4 col-lg-6">
                             <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                            <input type="lastname" class="form-control" placeholder="Enter your Last Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="text" class="form-control" placeholder="Enter your Last Name" id="lname" name="lname" aria-describedby="emailHelp">
                           </div>
                           <div class="mb-4 col-lg-6">
                             <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
-                            <input type="Mobile number" class="form-control" placeholder="Enter your Mobile No." id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="Mobile number" class="form-control" placeholder="Enter your Mobile No." name="mobile" id="mobile" aria-describedby="emailHelp">
                           </div>
                           <div class="mb-4 col-lg-6">
-                            <label for="exampleInputEmail1" class="form-label">Business Email address</label>
-                            <input type="email" class="form-control" placeholder="Enter only Business mail id   " id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Business Email</label>
+                            <input type="email" class="form-control" placeholder="Enter only Business Email" name="business_email" id="business_email" aria-describedby="emailHelp">
+                          </div>
+
+
+                          <div class="mb-12 col-lg-12">
+                          <label for="exampleInputEmail1" class="form-label">Message</label>
+                          <textarea name="message" id="message" style="background-color: #202020;" placeholder="Enter Your Message" class="form-control" cols="15" rows="5"></textarea>
+                          <!-- <input type="email" class="form-control" placeholder="Enter only Business mail id" id="exampleInputEmail1" aria-describedby="emailHelp"> -->
                           </div>
                         
                     </div>
-                    
+                    <input type="hidden" name="btn" value="contact_details" />                  
                     <button type="submit" class="btn btn-primary">Submit</button>
+  
                   </form>
             </div>
            
         </div>
     </section>
     <?php 
-    include ('./include/footer.php')
+    include ('./include/footer.php');
     ?>
