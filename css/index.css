@@ -858,14 +858,16 @@ footer .quick-link .left-quick-link ul li {
   background-color: #2a2a2a;
 }
 .row.animi .animation-div .inner .color {
-  width: 80px;
-  height: 80px;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  background: linear-gradient(158deg, rgb(255, 206, 7) 0%, rgb(240, 30, 80) 53%, rgb(60, 200, 230) 100%);
+}
+.row.animi .animation-div .inner .color img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 .row.animi .animation-div .inner .text {
   font-family: "Chivo", sans-serif;
@@ -1093,7 +1095,6 @@ footer .quick-link .left-quick-link ul li {
   border-radius: 50px;
   color: #fff;
   border: none;
-  margin-top: 10px;
 }
 .contact__page .form-background .last-heading {
   font-family: "Chivo", sans-serif;

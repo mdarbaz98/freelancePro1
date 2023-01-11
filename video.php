@@ -28,13 +28,13 @@
         <div class="row animi">
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/video/four-ring.png" alt=""></div>
                     <div class="text">Animation</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/video/" alt=""></div>
                     <div class="text">Stop motion</div>
                 </div>
             </div>

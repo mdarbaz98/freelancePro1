@@ -29,32 +29,26 @@ include ('./include/header.php')
         <div class="row animi">
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="/images/Creatives/creative.png" alt=""></div>
                     <div class="text">Creatives</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="/images/Creatives/people.png" alt=""></div>
                     <div class="text">Social</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="/images/Creatives/vec-box.png" alt=""></div>
                     <div class="text">Brand strategy and behavioural science</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="/images/Creatives/devices.png" alt=""></div>
                     <div class="text">Digital Experience</div>
-                </div>
-            </div>
-            <div class="animation-div">
-                <div class="inner">
-                    <div class="color"></div>
-                    <div class="text">Content Curation</div>
                 </div>
             </div>
         </div>
