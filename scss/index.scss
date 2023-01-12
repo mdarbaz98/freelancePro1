@@ -1402,7 +1402,9 @@ footer {
 
 .blog__page {
   padding-top: 150px;
-
+  strong{
+    color: #fff;
+  }
   .line {
     color: #8e8e93;
     font-family: $font1;

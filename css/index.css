@@ -1111,6 +1111,9 @@ footer .quick-link .left-quick-link ul li {
 .blog__page {
   padding-top: 150px;
 }
+.blog__page strong {
+  color: #fff;
+}
 .blog__page .line {
   color: #8e8e93;
   font-family: "Barlow", sans-serif;
