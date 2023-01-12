@@ -175,11 +175,11 @@ include('./admin/include/config.php')
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="coffee" role="tabpanel" aria-labelledby="coffee-tab">
                        <div class="inner">
-                       <img src="./images/logo.png" alt="">
+                       <img src="./images/Vector.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
                        </div>
                     </div>
-                    <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab"><div class="inner"><img src="./images/Vector.png" alt="">
+                    <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab"><div class="inner"><img src="./images/logo.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
                     <div class="tab-pane fade" id="Delivery" role="tabpanel" aria-labelledby="Delivery-tab"><div class="inner"> <img src="./images/X.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
