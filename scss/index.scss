@@ -1402,9 +1402,6 @@ footer {
 
 .blog__page {
   padding-top: 150px;
-  h2{
-    color: #fff;
-  }
   .line {
     color: #8e8e93;
     font-family: $font1;
@@ -1444,7 +1441,9 @@ footer {
 
   .content {
     padding: 30px 0px;
-
+    h2{
+      color: #fff;
+    }
     .author {
       margin-bottom: 20px;
 
