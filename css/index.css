@@ -133,8 +133,9 @@ header button.navbar-toggler {
 
 .section-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.055) 0%, rgba(0, 0, 0, 0.132) 59%, rgba(0, 0, 0, 0.154) 100%), url("../images/about.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: 330px;
 }
 .section-2 .inner-div {
   padding-top: 50px;
@@ -169,6 +170,7 @@ header button.navbar-toggler {
   display: grid;
   color: #ececec;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: -300px;
   width: 100%;
   background: rgba(17, 17, 17, 0.8);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -525,7 +527,7 @@ header button.navbar-toggler {
   font-size: 16px;
   font-weight: 100;
   text-align: left;
-  color: green;
+  color: rgb(255, 238, 0);
 }
 .section-6 .inner-div .blog-list .card .card-body p {
   font-family: "Chivo", sans-serif;
@@ -1363,6 +1365,10 @@ footer .quick-link .left-quick-link ul li {
   height: 100vh;
 }
 
+textarea::placeholder {
+  color: #fff;
+}
+
 @media (max-width: 767px) {
   .banner .banner-section .inner-banner-div {
     height: 100vh;
@@ -1400,6 +1406,7 @@ footer .quick-link .left-quick-link ul li {
   .section-2 .inner-div .works {
     display: block;
     padding: 25px;
+    margin-top: 50px;
   }
   .section-2 .inner-div .works p.p2 {
     font-size: 20px;

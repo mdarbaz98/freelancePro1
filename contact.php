@@ -30,7 +30,7 @@ include ('./include/header.php')
                         <h3>Enter your details</h3>
 
                     </div>
-                    <div class="right">
+                    <div class="righ ms-auto">
                         <img src="./images/mail.png" alt="">
                     </div>
                 </div>
@@ -63,7 +63,7 @@ include ('./include/header.php')
                         
                     </div>
                     <input type="hidden" name="btn" value="contact_details" />                  
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
   
                   </form>
             </div>

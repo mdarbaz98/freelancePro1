@@ -21,10 +21,10 @@ include('./admin/include/config.php')
     <section class="section-2">
         <div class="container">
             <div class="inner-div">
-                <!-- <h2>Human mind is very sensitive to partners it does business with. It is your interactions at
+                <h2>Human mind is very sensitive to partners it does business with. It is your interactions at
                     every stage keeps them tied and connected</h2>
                 <p class="p">At HOUSE OF EXPERIENCE we preach emotions and Innovation to bridge the gap between
-                    Brands and customers</p> -->
+                    Brands and customers</p>
                 <div class="works">
                     <div>
                         <span></span>
@@ -89,7 +89,7 @@ include('./admin/include/config.php')
                 <a class="box" href="video.php">
                     <img src="images/blog4.jpeg" alt="">
                     <div class="box_content">
-                    Video Production
+                        Video Production
                     </div>
                 </a>
             </div>
@@ -97,7 +97,7 @@ include('./admin/include/config.php')
                 <a class="box" href="image.php">
                     <img src="images/Brand 1.png" alt="">
                     <div class="box_content">
-                    Image Management
+                        Image Management
                     </div>
                 </a>
             </div>
@@ -105,7 +105,7 @@ include('./admin/include/config.php')
                 <a class="box" href="events.php">
                     <img src="images/blog1.jpeg" alt="">
                     <div class="box_content">
-                    Event and Production
+                        Event and Production
                     </div>
                 </a>
             </div>
@@ -113,7 +113,7 @@ include('./admin/include/config.php')
                 <a class="box" href="marketing.php">
                     <img src="images/blog-img.jfif" alt="">
                     <div class="box_content">
-                    Marketing Analytics
+                        Marketing Analytics
                     </div>
                 </a>
             </div>
@@ -156,12 +156,14 @@ include('./admin/include/config.php')
         <div class="container">
             <div class="inner">
                 <h2>How to get started.</h2>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in.
+                    Accumsan praesent egestas tincidunt leo.</p>
+                <strong><a href="contactus.php">Contact us</a> <i class="fa-solid fa-chevron-up"></i></strong>
             </div>
             <div class="tab-container">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="coffee-tab" data-bs-toggle="tab" data-bs-target="#coffee" type="button" role="tab" aria-controls="coffee" aria-selected="true"><span>1</span> Coffee meet</button>
+                        <button class="nav-link active" id="coffee-tab" data-bs-toggle="tab" data-bs-target="#coffee" type="button" role="tab" aria-controls="coffee" aria-selected="true"><span>1</span> coffee meet</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="Discusson-tab" data-bs-toggle="tab" data-bs-target="#Discusson" type="button" role="tab" aria-controls="Discusson" aria-selected="false"><span>2</span> Discusson</button>
@@ -170,12 +172,19 @@ include('./admin/include/config.php')
                         <button class="nav-link" id="Delivery-tab" data-bs-toggle="tab" data-bs-target="#Delivery" type="button" role="tab" aria-controls="Delivery" aria-selected="false"><span>3</span> Delivery</button>
                     </li>
                 </ul>
-                
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="coffee" role="tabpanel" aria-labelledby="coffee-tab">
+                       <div class="inner">
+                       <img src="./images/logo.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p>
+                       </div>
+                    </div>
+                    <div class="tab-pane fade" id="Discusson" role="tabpanel" aria-labelledby="Discusson-tab"><div class="inner"><img src="./images/Vector.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
+                    <div class="tab-pane fade" id="Delivery" role="tabpanel" aria-labelledby="Delivery-tab"><div class="inner"> <img src="./images/X.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur. Sed a risus amet auctor felis molestie in in. Accumsan praesent egestas tincidunt leo.</p></div></div>
+                </div>
             </div>
-            <div class="inner">
-                <strong><a href="contact.php">Contact us</a> <i class="fa-solid fa-chevron-up"></i></strong>
-            </div>
-        </div>
         </div>
     </section>
 

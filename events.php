@@ -41,7 +41,7 @@ include('./include/header.php')
     <div class="container uniq my-5">
         <div class="row">
             <div class="col-md-3">
-                <img class="side-img" src="images/Vector.png" alt="">
+            <img src="images/events/support_agent_FILL0_wght400_GRAD0_opsz48 1.png" alt="">
                 <div class=" heading">Customers</div>
             </div>
             <div class="col-md-9">
@@ -73,7 +73,7 @@ include('./include/header.php')
     <div class="container uniq my-5">
         <div class="row">
             <div class="col-md-3">
-                <img class="side-img" src="images/Vector.png" alt="">
+            <img src="images/events/badge_FILL1_wght500_GRAD0_opsz48 1.png" alt="">
                 <div class=" heading">Employees</div>
             </div>
             <div class="col-md-9">
@@ -113,7 +113,7 @@ include('./include/header.php')
     <div class="container uniq my-5">
         <div class="row">
             <div class="col-md-3">
-                <img class="side-img" src="images/Vector.png" alt="">
+            <img src="images/events/support_agent_FILL0_wght400_GRAD0_opsz48 1.png" alt="">
                 <div class=" heading">Partners</div>
             </div>
             <div class="col-md-9">

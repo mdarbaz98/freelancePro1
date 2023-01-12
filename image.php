@@ -19,31 +19,31 @@ include ('./include/header.php')
 
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/image/square_foot_FILL0_wght400_GRAD0_opsz48 1.png" alt=""></div>
                     <div class="text">Appearance</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/image/psychology_FILL0_wght400_GRAD0_opsz48 1.png" alt=""></div>
                     <div class="text">Behaviour</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/image/forum_FILL0_wght400_GRAD0_opsz48 1.png" alt=""></div>
                     <div class="text">Communication</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/image/add_reaction_FILL0_wght400_GRAD0_opsz48 1.png" alt=""></div>
                     <div class="text">Emotional Balance</div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color"><img src="images/image/Vector (1).png" alt=""></div>
                     <div class="text">Digital Presence</div>
                 </div>
             </div>

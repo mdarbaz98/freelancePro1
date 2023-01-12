@@ -26,13 +26,17 @@ include('./include/header.php')
         <div class="row animi">
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color">
+            <img src="images/marketing/paid_FILL0_wght400_GRAD0_opsz48 1 (1).png" alt="">
+                    </div>
                     <div class="text">PPC and Paid search </div>
                 </div>
             </div>
             <div class="animation-div">
                 <div class="inner">
-                    <div class="color"></div>
+                    <div class="color">
+            <img src="images/marketing/Vector (2).png" alt="">
+                    </div>
                     <div class="text">Seo Services</div>
                 </div>
             </div>
